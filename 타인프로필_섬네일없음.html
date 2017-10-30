@@ -1,0 +1,1842 @@
+<html lang="ko"><head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<link rel="icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="Subject" content="여보야">
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 문의전화1522-3379">
+<meta name="keywords" content="여보야, yeoboya, 결혼, 재혼">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<title>여보야</title>
+<link href="css/webfont.min2.css" rel="stylesheet" type="text/css">
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+document.domain = "yeoboya.com";
+var _underwork = false;
+</script>
+<script src="http://m.yeoboya.com/_global/js/jquery.min.js"></script>
+<script src="http://m.yeoboya.com/_global/js/jquery-cookie.min.js"></script>
+<script src="http://m.yeoboya.com/_global/js/jsBridge.js"></script>
+<script src="http://m.yeoboya.com/_global/js/app.js"></script>
+<script src="http://m.yeoboya.com/_global/js/NodeMarrySession.js"></script>
+<script src="http://m.yeoboya.com/js/default.js?ver=1509083609"></script>
+<script src="http://m.yeoboya.com/js/testDomains.js"></script>
+<script src="http://m.yeoboya.com/_global/js/jquery-ui.min-1.12.1.js"></script>
+<style>
+#imgSpinBg {position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.7);top:0;}
+#imgSpin {position:fixed;top:50%;left:50%;margin-top:-36px;margin-left:-36px;width:72px;height:72px;}
+@-webkit-keyframes flip /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes flip {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.flip {    
+  -webkit-animation: flip 1.2s ease infinite;
+  -moz-animation: flip 1.2s ease infinite;
+  -ms-animation: flip 1.2s ease infinite;
+  -o-animation: flip 1.2s ease infinite;
+  animation: flip 1.2s ease infinite;
+}
+
+.btn_home{display:inline-block;}
+.btn_home{position:absolute; padding:7px 20px 2px 50px; top:0; right:0;}
+</style>
+<script src="http://m.yeoboya.com/js/photoUpload.js"></script>
+</head>
+<body style=";-webkit-overflow-scrolling: touch">
+<script>
+// path controls
+var _chnl = 'cont';
+var _ctrl = 'profile';
+var _dest = 'profile';
+
+$(window).on("touchend",function(){});
+</script><style>
+	/* 170905 추가 _ 혼인-가족관계증명서 발급방법 안내팝업 */
+	#profile_transp_full {display:block; position:fixed; z-index:2002; top:0; left:0; width:100%; height:100%;}
+	.pop_fam-certi_guide {display:block; position:absolute; z-index:100; top:50%; width:96.7%; height:502px; margin:-251px 1.8% 0 1.5%; border:1px solid #1f1f1f; -webkit-border-radius:8px; border-radius:8px; background-color:#fff;}
+	.pop_fam-certi_guide .x {position:absolute; top:7px; right:7px; width:26px; height:26px; border:0; outline:0; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_x.png') no-repeat 0 0; background-size:26px 26px;}
+	.pop_fam-certi_guide .head-cmt {position:relative; margin:7px 29px 0 11px; padding:0 0 7px 0; font-size:0.85em; color:#263238; letter-spacing:-0.5px; line-height:1.3em;}
+	.pop_fam-certi_guide .box1 {position:relative; display:block; height:auto; margin:19px 10px 0 10px; padding:16px 0 6px 0; border:1px solid #c3e4f1; -webkit-border-radius:14px; border-radius:14px; background:#d9f2ff;} /* 170907 (margin수정) */
+	.pop_fam-certi_guide .box1 .tit1 {display:inline-block; position:absolute; top:-15px; left:20px; width:100px; height:28px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_tit1.png') no-repeat 0 0; background-size:100px 28px;}
+	.pop_fam-certi_guide .box1 .cont1 {margin:0 6px; font-size:0.85em; line-height:1.3em;}
+	.pop_fam-certi_guide .box2 {position:relative; display:block; height:auto; margin:12px 10px 0 10px; padding:16px 0 6px 0; border:1px solid #ffe2c9; -webkit-border-radius:14px; border-radius:14px; background:#ffedd9;} /* 170907 (margin수정) */
+	.pop_fam-certi_guide .box2 .tit2 {display:inline-block; position:absolute; top:-15px; left:20px; width:113px; height:28px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_tit2.png') no-repeat 0 0; background-size:113px 28px;}
+	.pop_fam-certi_guide .box2 .cont2 {margin:0 6px; font-size:0.85em; line-height:1.3em;}
+	.pop_fam-certi_guide .box2 .cont2 .t2 {display:inline-block; height:1.3em; margin-left:5px; font-size:1.1em;}
+	.pop_fam-certi_guide .box2 .cont2 .c2 {color:#0009b2;}
+	.pop_fam-certi_guide .box2 .cont2 .c3 {color:#eb0000;}
+	.pop_fam-certi_guide .box2 .cont2_point {position:relative; width:auto; height:214px; margin:14px 6px 0 6px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_point.png') no-repeat center; background-size:auto 214px;}
+	.pop_fam-certi_guide .box2 .cont2_point .tit {position:absolute; top:-12px; left:50%; width:130px; height:21px; margin-left:-65px; -webkit-border-radius:4px; border-radius:4px; background:#0e3050; font-size:13px; color:#fff; line-height:21px; text-align:center; text-indent:-5px;}
+	.pop_fam-certi_guide .circle {display:inline-block; width:4px; height:4px; margin-right:3px; -webkit-border-radius:2px; border-radius:2px; background-color:#222; vertical-align:middle;}
+	@media all and (max-height:480px){
+		.pop_fam-certi_guide {top:50%; height:464px; margin:-232px 1.8% 0 1.5%;}
+		.pop_fam-certi_guide .head-cmt {margin:8px 25px 0 11px; font-size:0.8em; line-height:1.2em;}
+		.pop_fam-certi_guide .box1 {margin:11px 10px 0 10px; padding:13px 0 5px 0;}
+		.pop_fam-certi_guide .box1 .cont1 {font-size:0.8em; line-height:1.2em;}
+		.pop_fam-certi_guide .box1 .tit1 {display:inline-block; position:absolute; top:-15px; left:20px; width:93px; height:26px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_tit1.png') no-repeat 0 0; background-size:93px 26px;}
+		.pop_fam-certi_guide .box2 {margin:18px 10px 0 10px; padding:13px 0 5px 0;}
+		.pop_fam-certi_guide .box2 .tit2 {display:inline-block; position:absolute; top:-15px; left:20px; width:105px; height:26px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_tit2.png') no-repeat 0 0; background-size:105px 26px;}
+		.pop_fam-certi_guide .box2 .cont2 {font-size:0.8em; line-height:1.2em;}
+		.pop_fam-certi_guide .box2 .cont2_point {width:auto; height:208px; margin:11px 6px 0 6px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/pop_fam-certi_guide_point.png') no-repeat center; background-size:auto 208px;}
+		.pop_fam-certi_guide .box2 .cont2_point .tit {top:-10px; width:120px; height:18px; margin-left:-60px; font-size:12px; line-height:18px; text-indent:-4px;}
+	}
+	/* */
+</style>
+<!-- 170905 추가 _ 혼인-가족관계증명서 발급방법 안내팝업 -->
+<div id="profile_transp_full" style="display: none;">
+	<div class="pop_fam-certi_guide">
+		<button onclick="$.relationInfoLayerClose();" type="image" class="x"></button>
+		<p class="head-cmt">※ <span class="font_b">상세증명서</span>로 발급하시기 바랍니다.<br>
+			※ 반드시 <span class="font_b">주민번호 비공개</span> 선택하시기 바랍니다.</p>
+		<div class="box2">
+			<span class="tit2"></span>
+			<p class="cont2"><span class="circle"></span>대법원 전자가족관계등록 시스템<br>
+				<span class="t2">( <span class="font_b">efamily.scourt.go.kr</span> )</span><br>
+				<span class="circle"></span><span class="c2">반드시 PC로 접속</span> <span class="c3">(모바일 불가능)</span><br>
+				<span class="circle"></span>본인 공인인증서 필수<br>
+				<span class="circle"></span>수수료 없음</p>
+			<p class="cont2_point"><span class="tit">※ <span class="font_b">발급시 체크포인트</span></span></p>
+		</div>
+		<div class="box1">
+			<span class="tit1"></span>
+			<p class="cont1"><span class="circle"></span>동/시.구.읍.면 행정기관<br>
+				<span class="circle"></span>본인 신분증 지참<br>
+				<span class="circle"></span>증명서 1통당 1천원 수수료</p>
+		</div>
+	</div>
+</div>
+<!-- // 170905 추가 _ 혼인-가족관계증명서 발급방법 안내팝업 -->
+
+<style>
+header .btn_block {position:absolute;top:7px;right:10px}
+.wedding_wrap p {margin:0;padding:0 5px}
+.profile_detail_txtbox {position:relative; height:81px !important;}
+.profile_detail_txtbox, .want_partner {background:#fff}
+.show {display:block}
+.hide {display:none}
+.info_msg_box {word-break:break-all;}
+.pr_photo_box {position:relative;width:33%;height:95px;margin:10px 0 0 0;}
+.pr_photo_box .p_x {position:relative; top:-96px; left:75px; }
+.profile_photo_box2 {position:relative; display:block; float:left; width:70px; height:60px; margin-top:9px; margin-right:8px; margin-left:8px; border:1px solid #beb7a9; background-color:#fff}
+.profile_photo_box2 .plofile_photo {display:none}
+.profile_photo_box2 .btn_photo_del {display:none;position:absolute;top:30px;left:50px}
+.profile_photo_box2 .plofile_photo {display:block; position:absolute; top:1px; left:1px; width:68px; height:58px; border:none; border-radius:0; moz-border-radius:0; webkit-border-radius:0;}
+.profile_photo_box2 .plofile_photo img {width:100%; height:100%; border-radius:0; moz-border-radius:0; webkit-border-radius:0;}
+.profile_photo_box2	.btn_photo_del {position:absolute;top:-5px;left:55px}
+.profile_photo_box2 .number {position:absolute;top:-6px;right:-6px;display:block;margin:0;padding:0;text-align:center;font-size:11px;line-height:24px;font-weight:bold;width:24px;height:24px;background:#3c3;color:#fff;border-radius:12px}
+.profile_photo_box2 .btn_photo_regi {position:absolute;top:11px;left:2px;z-index:16}
+.profile_photo_box2 .btn_photo_regi img {width:65px;height:37px}
+.profile_photo_box2 img {width:70px;height:60px;object-fit:cover}
+.add_btn {
+	display: inline-block;
+	width: 65px;
+	height: 28px;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ececec 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#ececec 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #ececec 100%);
+	border-radius: 5px;
+	border: 1px solid #adadad;
+	text-align: center;
+	line-height: 28px;
+	font-size:0.9em;
+	float: right;
+	margin-top: 3px;
+}
+.info_text .save_photo {
+	clear: both;
+	display: inline-block;
+	font-size: 14px;
+	font-weight:bold;
+	color: #b80a0e;
+	letter-spacing: -1px;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom:3px;
+}
+.info_text {margin-bottom:3px;}
+/* 관심있어요 버튼 추가 */
+.new_button_box { width:100%; height:50px; background-color:#b6bbbf; border-bottom:2px solid #393e4b; }
+.new_button_box ul { margin:0; padding:0; }
+.new_button_box ul li { display:inline; float:left; margin-top:4px; text-align:center; width:33.3%; }
+.btn_new { display:block;background:-moz-linear-gradient(top, #fff 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fff 0%,#ededed 100%); background:-o-linear-gradient(top, #fff 0%,#ededed 100%); background:-ms-linear-gradient(top, #fff 0%,#ededed 100%); background:linear-gradient(to bottom, #fff 0%,#ededed 100%); width:94%; margin:0 auto; margin-left:4px; border-radius:5px; border:1px solid #fff; font-size:12px; line-height:40px; text-align:center;  }
+.btn_new_last { display:block;background:-moz-linear-gradient(top, #50393a 0%, #341d1e 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#50393a), color-stop(100%,#341d1e)); background:-webkit-linear-gradient(top, #50393a 0%,#341d1e 100%); background:-o-linear-gradient(top, #50393a 0%,#341d1e 100%); background:-ms-linear-gradient(top, #50393a 0%,#341d1e 100%); background:linear-gradient(to bottom, #50393a 0%,#341d1e 100%); width:94%; margin:0 auto; margin-left:4px; border-radius:5px; border:1px solid #50393a; font-size:12px; line-height:40px; text-align:center; }
+.btn_disable { display:block; background-color:#eaeaea; width:94%; margin:0 auto; margin-left:4px; border-radius:5px; border:1px solid #eaeaea; font-size:12px; line-height:40px; text-align:center; }
+.btn_disable img { display:inline-block; vertical-align:middle; margin-bottom:2px; margin-right:4px; }
+.btn_new img { display:inline-block; vertical-align:middle; margin-bottom:2px; margin-right:4px; }
+.btn_new_last img { display:inline-block; vertical-align:middle; margin-bottom:2px; margin-right:4px; }
+.font_block { color:#6c6767; }
+.font_interest { color:#db5940; }
+.font_talk { color:#fff; }
+.font_disable { color:#d1d1d1; }
+.my_coin_txt {padding-left:15px; color:#fff; font-size:15px;}
+.my_coin_txt span {color:#fff300; text-align:right;}
+.btn_cash_recharge {display:inline-block; float:right; width:80px; height:35px; margin-top:2px; margin-right:5px; border:1px solid #685128; border-radius:5px; background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fff400), color-stop(1, #ffce00)); background:-moz-linear-gradient(top, #fff400 5%, #ffce00 100%); background:-webkit-linear-gradient(top, #fff400 5%, #ffce00 100%); background:-o-linear-gradient(top, #fff400 5%, #ffce00 100%); background:-ms-linear-gradient(top, #fff400 5%, #ffce00 100%); background:linear-gradient(to bottom, #fff400 5%, #ffce00 100%); background-color:#fff400; color:#685128; font-size:13px; line-height:16px;}
+.btn_detail {display:inline-block; position:relative; float:right; margin-top:2px; margin-right:8px; padding:1px 15px 1px 11px; border:1px solid #cfcfcf; border-radius:3px; background:-moz-linear-gradient(top, #fff 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fff 0%,#ededed 100%); background:-o-linear-gradient(top, #fff 0%,#ededed 100%); background:-ms-linear-gradient(top, #fff 0%,#ededed 100%); background:linear-gradient(to bottom, #fff 0%,#ededed 100%); font-size:12px; text-align:center; line-height:25px;} /* 170523 _ margin-right추가,padding수정 */
+.btn_detail .photo_num {display:block; position:absolute; top:-2px; right:-8px; width:18px; height:18px; border-radius:18px; background-color:#3c3; color:#fff; line-height:18px; box-shadow:1px 1px 2px #c8c8c8} /* 170523 _ z-index제거,left제거,right추가 */
+.info_txt_list div {position:relative;display:block; height:auto; color:#727272; font-size:13px; line-height:32px;padding:0 0 0 0;}
+#blank { display:inline-block; width:11px;}
+.profile_info_txt { width:45.5625%; margin-top:10px;}
+.profile_info_txt.other { width:70.5625%; margin-top:9px;}
+.profile_info_txt.kmode {margin-top:9px;}
+/* 중매인 추가 */
+.ico_arrang_mem {display:inline-block; float:right; padding-top:10px; padding-right:16px;}
+.arrange_pre_photo {display:block; width:55px; height:55px; margin:5px 0px; border:1px solid #beb7a9;}
+.arrange_pre_photo img {width:53px; height:53px; margin-top:1px; margin-left:1px;}
+.arrange_info_txt {position:absolute; top:12px; left:69px; margin:0; padding:0; color:#727272; font-size:13px; letter-spacing:-1px;}
+.arrange_info_txt li {width:122%; margin-bottom:2px; list-style:none;}
+.arrange_info_txt span {color:#263238;}
+.arrange_msg_box {display:block; height:auto; padding:10px 10px; overflow:hidden; color:#727272; font-size:14px;}
+.btn_arrange_mem_view {display:inline-block; position:absolute; top:13px; right:0px; padding:8px 0px; border:1px solid #67404a; border-radius:3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b68a9e), color-stop(1, #885562) ); background:-moz-linear-gradient( center top, #b68a9e 5%, #885562 100% ); background-color:#b68a9e; box-shadow:inset 0px 1px 0px 0px #dbc5d0; color:#ffffff; font-size:15px; text-decoration:none; text-align:center; text-indent:0; text-shadow:1px 1px 0px #986776; line-height:20px; white-space:pre-line; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b68a9e', endColorstr='#885562'); -webkit-box-shadow:inset 0px 1px 0px 0px #dbc5d0; -webkit-border-radius:3px; -moz-box-shadow:inset 0px 1px 0px 0px #dbc5d0; -moz-border-radius:3px;}
+.profile_look_box {position:relative; clear:both; width:100%; height:40px; margin:0 0 3px 0; border-bottom:1px solid #483334;}
+.profile_look_box img {float:left;}
+/* 프라임회원 추가 */
+.info_txt_list div span { margin-left:10px; text-overflow:inherit; /*height:30px;*/ white-space:normal; font-size:13px; }
+.prime_secret_box {display:inline-block !important; position:absolute; top:4px; left:70px; width:55% !important; height:24px; border-bottom:1px solid #fcd469;
+ background:#666 url(http://image.yeoboya.com/imgs/new_wedding/prime/img_pattern_prime.png) repeat; text-align:center; line-height:27px;cursor:pointer;}
+.btn_fam_secret {display:inline-block; top:4px; right:0px; margin-left:10px; padding:4px 8px; border:1px solid #d5d5d5; border-radius:3px; background:#fefefe; background:-moz-linear-gradient(top, #fefefe 0%, #eeeeee 100%); background:-webkit-linear-gradient(top, #fefefe 0%,#eeeeee 100%); background:linear-gradient(to bottom, #fefefe 0%,#eeeeee 100%); color:#555f64; line-height:16px; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#eeeeee',GradientType=0 ); font-size:12px;}
+.mg_right {margin-right:-30px;}
+.mypoint_secret {display:inline-block;position:absolute;top:4px}
+.mypoint_open {display:inline-block;position:absolute;top:0;left:235px;font-size:14px}
+.photo_prime_bg {position:absolute; z-index:2; top:0px; left:0px; width:85px; height:85px;}
+@media (min-width:360px) {
+.info_txt_list div span {width:235px;}
+.prime_secret_box {width:60% !important;}
+.first_head {font-size:14px !important;}
+.first_head img {margin-left:8px !important;}
+.pr_photo_box .p_x { left:82px; }
+}
+@media (min-width:375px) {
+.info_txt_list div span {width:250px;}
+.prime_secret_box {width:62% !important;}
+}
+@media (min-width:414px) {
+.info_txt_list div span {width:280px;}
+.prime_secret_box {width:66% !important;}
+.pr_photo_box .p_x { left:89px; }
+}
+@media (min-width:768px) {
+.info_txt_list div span {width:565px;}
+.prime_secret_box {width:77% !important;}
+.pr_photo_box .p_x { left:143px; }
+}
+.fam_prime_txt {display:inline-block !important; float:left !important; width:100% !important; height:24px; margin:4px 0; border-bottom:1px solid #fcd469; background:#666 url(http://image.yeoboya.com/imgs/new_wedding/prime/img_pattern_prime.png) repeat; text-align:center; line-height:27px;}
+.btn_fam_look {display:inline-block; margin-left:5px; padding:4px 8px; border:1px solid #d5d5d5; border-radius:3px; background:#fefefe; background:-moz-linear-gradient(top, #fefefe 0%, #eeeeee 100%); background:-webkit-linear-gradient(top, #fefefe 0%,#eeeeee 100%); background:linear-gradient(to bottom, #fefefe 0%,#eeeeee 100%); color:#555f64; line-height:16px; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#eeeeee',GradientType=0 ); font-size:12px;}
+.photo_prime_bg {position:absolute; z-index:2; top:0px; left:0px; width:85px; height:85px;}
+.filter_blur {filter:blur(2px); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2px'); -webkit-filter:blur(2px); -ms-filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2px'); -ms-filter:blur(2px);}
+.pr_photo {position:relative;}
+/* 추가 사항 */
+.etc_secret {position:relative;display:block; height:33px; color:#727272; font-size:0.9em; line-height:32px;padding:0 0 0 0}
+.prime_secret_box_02 {display:inline-block !important;width:100% !important; padding-left:10px;}
+.btn_look_secret_02 {display:inline-block; position:absolute; top:3px; right:10px; margin-left:10px; padding:4px 8px; border:1px solid #d5d5d5; border-radius:3px; background:#fefefe; background:-moz-linear-gradient(top, #fefefe 0%, #eeeeee 100%); background:-webkit-linear-gradient(top, #fefefe 0%,#eeeeee 100%); background:linear-gradient(to bottom, #fefefe 0%,#eeeeee 100%); color:#555f64; line-height:16px; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#eeeeee',GradientType=0 ); font-size:12px;}
+.prime_mark01 {background:url(http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png) no-repeat; background-size:65px 24px; background-position:0 4px; display:inline-block !important; width:65px; }
+.prime_mark02 {background:url(http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png) no-repeat; background-size:180px 24px; background-position:0 5px; display:inline-block !important; width:180px; }
+.prime_mark03 {background:url(http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png) no-repeat; background-size:75px 24px; background-position:0 5px; display:inline-block !important; width:75px; }
+.prime_mark04 {background:url(http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png) no-repeat; background-size:200px 24px; background-position:0 5px; display:inline-block !important; width:200px; }
+.btn_look_secret { margin-left:10px; padding:4px 8px; border:1px solid #d5d5d5; border-radius:3px; background:#fefefe; background:-moz-linear-gradient(top, #fefefe 0%, #eeeeee 100%); background:-webkit-linear-gradient(top, #fefefe 0%,#eeeeee 100%); background:linear-gradient(to bottom, #fefefe 0%,#eeeeee 100%); color:#555f64; line-height:16px; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#eeeeee',GradientType=0 ); font-size:12px; position:relative;}
+.btn_look_secret2 { margin-left:10px; padding:4px 8px; border:1px solid #d5d5d5; border-radius:3px; background:#fefefe; background:-moz-linear-gradient(top, #fefefe 0%, #eeeeee 100%); background:-webkit-linear-gradient(top, #fefefe 0%,#eeeeee 100%); background:linear-gradient(to bottom, #fefefe 0%,#eeeeee 100%); color:#555f64; line-height:16px; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#eeeeee',GradientType=0 ); font-size:12px; position:relative; top:-4px;}
+.fam_list { margin-left:10px; text-overflow:inherit; height:auto; white-space:normal; padding-bottom:5px; }
+#secretArea {cursor:pointer;}
+.tit_txt02 {z-index:999; font-size:13px; line-height:20px; margin:4px 8px; padding:4px !important; border:1px solid #000; border-radius:3px; background-color:#5b4868; color:#fff; padding-left:8px !important;}
+.tit_txt02 img {vertical-align:middle; }
+.test_X {display:none !important;}
+.mg_top {position:relative; margin-top:3px;} /* 170523 _ position추가 */
+/* 위로올리기 버튼 추가 */
+.btn_my{position:absolute; right:5px; width:90px; height:33px; line-height:30px; border-radius:5px; box-sizing:border-box;}
+.btn_my:first-of-type{top:5px; color:#fff;  border:1px solid #00748f;
+background: -moz-linear-gradient(top, #00b6e8 0%, #009ec3 100%);
+background: -webkit-linear-gradient(top, #00b6e8 0%,#009ec3 100%);
+background: linear-gradient(to bottom, #00b6e8 0%,#009ec3 100%);}
+.btn_my:last-of-type{top:43px; border:1px solid #adadad;
+background:-moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+background:-webkit-linear-gradient(top, #ffffff 0%,#ececec 100%);
+background:-o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+background:linear-gradient(to bottom, #ffffff 0%, #ececec 100%);}
+.btn_my a{display:block; width:100%; height:100%; font-size:14px; letter-spacing:-1px; border-radius:5px; box-sizing:border-box; }
+.btn_my .btn_up{padding-left:23px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_up.png) no-repeat 6px center; background-size:13px 10px;}
+.btn_my .btn_modify{padding-left:30px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_modify.png) no-repeat 9px center; background-size:17px 17px;}
+/* 시크릿 추가 */
+.dt_secret_wrap{display:none; position:fixed; top:0; left:50%; right:0; z-index:1000; width:300px; height:auto; box-shadow:0px 0px 40px rgba(0,0,0,0.8); border-radius:5px; margin-top:50%; transform:translateX(-50%); overflow:hidden;}
+@media (min-width:360px) {
+.dt_secret_wrap { width:320px; }
+}
+.dt_scrt_pop{position:relative; width:100%; height:35px; line-height:35px; text-align:center; background-color:#f7d2d7; color:#4f4f4f; font-weight:bold; font-size:16px;}
+.dt_scrt_pop .btn_scrt_clse{position:absolute; top:0; right:0; width:50px; height:100%; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/secret/btn_pop_clse.png) no-repeat center center; background-size:15px 15px; text-indent:-9999px; cursor:pointer;}
+.dt_secret{position:relative; width:100%; height:auto; padding:10px 20px 20px 20px; box-sizing:border-box; background: #fcebed; background: -moz-linear-gradient(top, #fcebed 0%, #e2e6ee 100%); background: -webkit-linear-gradient(top, #fcebed 0%,#e2e6ee 100%); background: linear-gradient(to bottom, #fcebed 0%,#e2e6ee 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcebed', endColorstr='#e2e6ee',GradientType=0 );}
+.scrt_top{position:relative; width:100%; height:auto;}
+.scrt_top .top_line{width:100%; height:30px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/secret/ico_top_line.png) no-repeat center bottom; background-size:262px 26px;}
+.scrt_top .top_txt{width:100%; height:auto; line-height:23px; padding:10px 15px; border-radius:8px; box-sizing:border-box; background-color:#fff; color:#2f2f2f; font-size:15px; text-align:center;}
+.scrt_top .scrt_img{display:inline-block; position:relative; top:3px; width:50px; height:16px; vertical-align:top; text-indent:-9999px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/secret/scrt_txt4.png) no-repeat center bottom; background-size:50px 16px;}
+.scrt_top .fc_gray{color:#686868;}
+.scrt_top .fc_pink{color:#e57575;}
+.scrt_bot{position:relative; width:100%; height:auto;}
+.scrt_bot:after{content:""; display:block; clear:both;}
+.scrt_bot .bot_txt{width:100%; height:auto; padding:10px 0; color:#656473; text-align:center; font-size:16px; clear:both;}
+.scrt_bot .fc_purple{color:#524f8e;}
+.scrt_bot .btn_cancel{width:45%; height:37px; line-height:37px; float:left; border-radius:5px; background-color:#8c8b97;}
+.scrt_bot .btn_request{width:45%; height:37px; line-height:37px; float:right; border-radius:5px; background-color:#be4a82;}
+.scrt_bot .btn_cancel a, .scrt_bot .btn_request a{display:block; width:100%; height:100%; border-radius:5px; color:#fff; text-align:center; font-size:15px;}
+.scrt_bot .btn_cancel a:active, .scrt_bot .btn_request a:active{background:rgba(0,0,0,0.05);}
+.scrt_bot .btn_what_box{width:100%; height:auto; padding-top:10px; clear:both;}
+.scrt_bot .btn_what{width:100%; height:37px; line-height:37px; border-radius:5px; background:#524f8e;}
+.scrt_bot .btn_what a{display:block; width:100%; height:100%; color:#fff; text-align:center; font-size:15px;}
+.scrt_bot .btn_what a:active{background:rgba(0,0,0,0.05);}
+/* 관심있어요 new */
+.new_button_box ul li {position:relative;}
+.inter_new_badge {position:absolute; top:-11px; right:12px; width:28px; height:17px; background:url(http://image.yeoboya.com/imgs/new_wedding/interest/ico_new_badge.gif) no-repeat center center; background-size:28px 17px;}
+.interest_view {display:block; position:relative; z-index:99; top:42px; width:286px; height:60px; margin:0 auto; background-color:#caa7bd; box-shadow:0 0 10px 0 rgba(0,0,0,0.55);}
+.inter_bg_arrow {position:absolute; top:-9px; left:100px; width:16px; height:9px; background:url(http://image.yeoboya.com/imgs/new_wedding/interest/img_arrow_01.png) no-repeat center center; background-size:16px 9px;}
+.interest_view .inter_ani_list {display:block; position:absolute; top:4px; left:2px; width:98%; height:51px; margin:0; padding:0;}
+.interest_view .inter_ani_list li {float:left; width:25%; margin:0; padding:0;}
+/* 170523 추가 _ 홍보레이어 */
+.floating-layer_in-myprofile {display:inline-block; position:absolute; z-index:10; top:auto; right:4.7%; margin-top:123px; width:252px; height:80px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/floating-layer_in-myprofile.png') no-repeat 0 0; background-size:252px 80px;}
+.floating-layer_in-myprofile_x {display:inline-block; position:absolute; z-index:20; top:0; right:0; width:25px; height:25px; margin:8px 10px 0 0; border:0; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/floating-layer_in-myprofile_x.png') no-repeat 0 0; background-size:25px 25px;}
+#wealthLayer{ display:none; }
+#give-help_in-myprofile_1,#give-help_in-myprofile_2,#give-help_in-myprofile_3 { z-index:9;}
+/* */
+/*-------------------------20170918 정우아-----------------------*/
+/* 170523 추가 _ 도움말레이어 */ /*20170905 정우아 수정*/
+.give-help_btn-in-myprofile {display:inline-block; position:absolute; top:auto; width:18px; height:18px; margin:10px 0 0 3px; background:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img4/ico_quest-mark.png') no-repeat 0 0; background-size:18px 18px;}
+/* */
+
+/* 증명서사진등록 팝업창 추가 */
+#photo_cer{display:none; position:absolute; top:30%; margin-top:-126px; z-index:201;}/*20170918 수정*/
+#photo_cer .photo_alarm_cer{width:282px; height:auto; margin:0 auto; border:1px solid #958b8a; border-radius:3px; background-color:#fff; border-radius:5px; text-align:center;}
+.photo_cer_wrap { clear:both; width:100%; height:auto; margin-top:20px;}
+.photo_cer_wrap .num_photo {display:inline-block; clear:both; padding-top:5px; color:#818181; font-size:14px; letter-spacing:-1px;}
+.photo_cer_wrap .num_photo .num_txt {color:#4f6dc1;}
+.photo_cer_wrap .num_photo .max_con {color:#b80a0e;}
+.photo_cer_wrap .btn_cer{display:block; width:256px; text-align:center; margin-bottom:8px; font-size:14px;}
+.photo_cer_wrap .btn_cer_bg {display:block; height:38px; line-height:38px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); text-align:center;/* FF3.6+ */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ededed',GradientType=0 );/* IE6-9 */ }
+.photo_cer_wrap .bf_color01 {color:#666;}
+.photo_cer_wrap .alarm_mg{margin:9px 10px;}
+.marry_cer{width:257px; height:100%; margin-bottom:10px; margin-left:10px;  border:1px solid #adadad; box-sizing:border-box; border-radius:3px;}
+.marry_cer .mr_paper{width:100%; height:272px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/img2/marry_cer.png) no-repeat 0 0; background-size:257px 272px;}
+.marry_cer .mr_paper .paper_p{font-size:21px; font-weight:600; color:#cc2929; padding-top:85px;}
+
+/* 증명서사진등록 팝업창 모달 */
+.cer_modal{position:absolute; top:0; left:0; width:100%; z-index:1000; background:rgba(0,0,0,0.7); height:100%;}/*20170918 수정*/
+.cer_modal_hint{position:absolute; top:0; left:0; width:100%; z-index:2001; background:rgba(0,0,0,0.7); height:100%;}/*20170918 수정*/
+
+/*20170912 정우아*/
+/* 직업사진등록 */
+.info_border:after{content:''; display:block; clear:both;}
+@media (min-width:375px){
+	.info_border .txt_b{width:53%!important;}
+}
+@media (min-width:414px){
+	.info_border .txt_b{width:60%!important;}
+}
+
+/* 소제목 이미지 여백 */
+.first_head img{margin:6px 4px 0 3px!important;}
+
+/* 증명서 등록, 도움말레이어 추가 20170918 수정 */
+.info_txt_list .intro_c{font-size:13px; color:#92626a; text-align:center; margin-bottom:8px;}
+.info_txt_list .c_btn{text-align:center; margin-top:5px;}
+.info_txt_list .c_btn a, .layer_txt .mc_03 a{padding:4px 30px!important; font-size:13px!important; margin:0!important;}
+.layer_header .mc_d{margin-left:25px;}
+.layer_header .mc_01{display:inline-block; margin:3px 0 1px -6px; font-size:13px;}
+.layer_header .mc_01{display:inline-block; margin:3px 0 1px -6px; font-size:13px;}
+.layer_header .mc_02{font-size:13px; padding:0; margin:-1px;}
+.layer_txt .mc_03{text-align:center; margin-top:7px;}
+.layer_txt .mc_03 a{font-size:14px; display:inline-block; text-align:center; padding:5px 12px; background-color:#b5836f; color:#fff; border-radius:5px; margin-top:8px; margin-bottom:3px;}
+.layer_txt .mc_03 a:active{background-color:#a07564;}
+
+/*증명서등록 홍보레이어 추가 20170921 수정*/
+.wedding_wrap .layer_cer{margin:0; padding:8px; display:inline-block; position:absolute; right:0px; background-color:#fff; border:2px solid #777; z-index:17; font-size:13px; font-weight:600; border-radius:16px; width:240px; box-sizing:border-box; box-shadow:1px 3px 3px #cecece;}
+.info_txt_list .layer_cer div{line-height:normal; color:#717379;}
+.info_txt_list .layer_cer span{display:inline; width:auto; height:auto;
+	margin-left:0px; float:none; color:inherit;}
+.layer_cer .cer_p, .layer_cer .cer_c, .layer_cer .cer_p, .layer_cer .job_p{padding:0; margin:0; display:inline-block; font-size:13px;}/*20170912 수정*/
+.layer_cer .cer_c{color:#bd7f8a!important;}
+.cer_p{color:#717379;}
+.job_p .cer_m{color:#b26d8b;}
+.layer_cer .cer_issue{text-align:center;}
+.layer_cer .cer_issue .cer_a, .info_txt_list .c_btn a{font-size:14px; display:inline-block; text-align:center; padding:5px 12px; background-color:#bd7f8a; color:#fff; border-radius:5px; margin-top:8px; margin-bottom:3px;}
+.layer_cer .cer_issue .cer_a:active, .info_txt_list .c_btn a:active{background-color:#a9727c;}
+.wedding_wrap .cer_close{position:absolute; top:-3px; right:-3px; display:inline-block;}/*20170912 수정*/
+.wedding_wrap .cer_close a{display:block; padding:6px;}/*20170912 수정*/
+.wedding_wrap .cer_close img{width:25px; height:25px;}
+.info_box_wrap .cer_l{top:-129px; line-height:normal; font-weight:600; letter-spacing:-0.01em; font-family:"NotoSansKR-Regular","sans-serif";}
+
+/*20170915 수정*/
+/* 직업,연봉 등 홍보레이어 삭제 후 추가 */
+.layer_cer .job_p{color:#697eb6; margin-bottom:2px;}
+.job_l{top:80px!important; width:298px!important;}
+.info_box_wrap .layer_cer .job_angle{top:75px!important;}
+.layer_cer .arrow_b{position:absolute; right:34px; bottom:-15px;}
+
+/*20170915 추가*/
+/* 물음표 팝업창들 요소 사이즈 수정 */
+.s_font{font-size:13px!important; height:38px!important; line-height:38px!important;}
+.alarm_layer .m_font{font-size:13px!important; padding:6px 6px!important;}
+.alarm_layer .btn_layer_clse{background-size:22px 22px!important; top:-1px!important;}
+
+.alarm_layer{padding:0 6px!important;}
+.info_text .personal_i{display:inline-block; padding-bottom:2px; color:#cd5b7c; font-size:12px;}
+.s_st{display:inline-block; padding-top:11px; font-size:12px; line-height:12px;}
+.s_pro{color:#4f65c4;}
+
+#photoAbox:focus {
+	outline: none;
+}
+
+/*------------------------------20170928 ------------------------------*/
+/*170928 수정*/
+/* 증명서사진등록 팝업창 추가 */
+#photo_cer{display:none; position:absolute; top:30%; margin-top:-126px; z-index:201;}/*20170918 수정*/
+#photo_cer .photo_alarm_cer{width:282px; height:auto; margin:0 auto; border:1px solid #958b8a; border-radius:3px; background-color:#fff; border-radius:5px; text-align:center;}
+.photo_cer_wrap { clear:both; width:100%; height:auto; margin-top:20px;}
+.photo_cer_wrap .num_photo {display:inline-block; clear:both; padding-top:5px; color:#818181; font-size:14px; letter-spacing:-1px;}
+.photo_cer_wrap .num_photo .num_txt {color:#4f6dc1;}
+.photo_cer_wrap .num_photo .max_con {color:#b80a0e;}
+.photo_cer_wrap .btn_cer{display:block; width:256px; text-align:center; margin-bottom:8px; font-size:14px;}
+.photo_cer_wrap .btn_cer_bg {display:block; height:38px; line-height:38px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); text-align:center;/* FF3.6+ */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ededed',GradientType=0 );/* IE6-9 */ }
+.photo_cer_wrap .bf_color01 {color:#666;}
+.photo_cer_wrap .alarm_mg{margin:9px 10px;}
+.marry_cer{position:relative; width:258px; height:100%; margin-bottom:10px; margin-left:12px;  border:1px solid #adadad; box-sizing:border-box; border-radius:3px;}
+.marry_cer .mr_paper{width:100%; height:272px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/img2/marry_cer.png) no-repeat 0 0; background-size:257px 272px;}
+.marry_cer .mr_paper .paper_p{font-size:21px; font-weight:600; color:#cc2929; padding-top:85px;}
+
+/*-----내프로필 팝업창에 증명서발급방법보기 버튼 추가/ 170928 정우아-------*/
+.photo_alarm_box .button_c{position:absolute; bottom:6px; left:20px;}
+.photo_alarm_box .button_c a{display:block; padding:8px 38px 10px 38px; border-radius:3px; background-color:#bd7f8a; color:#fff; font-weight:600; font-size:16px;}
+.photo_alarm_box .button_c a:active{background-color:#ae7680;}
+    
+/*------------스페셜자기소개 20171027 정우아--------------*/  
+/*상단 스페셜 자기소개*/
+.info_text .resist_gif{width:85px; height:80px; box-shadow:0px 0px 5px rgba(0,0,0,0.4); margin:10px 20px;}
+.info_text .resist_title{width:85px; height:22px; line-height:22px; background-color:#916091; color:#fff; font-size:13px; letter-spacing:-0.2px;}
+.info_text .resist_gif img{margin-top:2px; padding-bottom:3px;}
+.info_text .special_a{display:block;}
+.info_text .special_a:active{background-color:#ececec;}
+.resist_gif .photo_num{display:block; position:absolute; top:-4px; right:-8px; width:18px; height:18px; border-radius:18px; background-color:#3c3; color:#fff; line-height:18px; box-shadow:1px 1px 2px #c8c8c8;}
+
+/*하단 스페셜 자기소개*/
+.info_txt_list2 .special_view{width:85px; height:87px; box-shadow:0px 0px 5px rgba(0,0,0,0.4); position:relative; display:inline-block; background: rgb(255,255,255);
+background: -moz-linear-gradient(top, rgb(255,255,255) 69%, rgb(255,255,255) 70%, rgb(243,243,243) 100%);
+background: -webkit-linear-gradient(top, rgb(255,255,255) 69%,rgb(255,255,255) 70%,rgb(243,243,243) 100%);
+background: linear-gradient(to bottom, rgb(255,255,255) 69%,rgb(255,255,255) 70%,rgb(243,243,243) 100%);}
+.info_txt_list2 .badge_gif{position:absolute; top:-1px; left:-1px;}
+.info_txt_list2 .badge_delete{position:absolute; top:-10px; right:-10px;}
+.info_txt_list2 .certify_mark{position:absolute; bottom:0px; right:0px;}
+.special_view .special_view_a{display:block; height:87px;}
+.special_view .special_view_a:active{background-color:#ececec;}
+.special_view .hide_d{width:72px; height:56px; position:absolute; z-index:2;}
+</style>
+<link href="http://m.yeoboya.com/cont/alarmset/css/alarmset.css" rel="stylesheet" type="text/css"><!-- 170523 _ 외부CSS 추가 : '더보기>알림수신설정'에 쓰인 도움말레이어 CSS -->
+<div class="cer_modal_hint" style="display:none"></div>
+<div class="wedding_wrap">
+	<header>
+		<a href="javascript:$.goBack('finishWin');" class="btn_back"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_back.jpg" width="30" height="31" alt="뒤로"></a>
+		<p class="title_header font_m">아재스멜</p>
+		<a href="javascript:void(0);" onclick="$.finishPop('')" class="btn_home">
+			<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/home.png" width="33" height="31" alt="홈으로">
+		</a>
+	<span id="connectionStatus" style="position:absolute; top:-5px; left:-3px;">&nbsp;<b><font color="red" size="2">OO</font></b></span></header>	<div class="profile_text_box">
+		<p class="text_head font_b">
+			<span class="profile_id fc_white">아재스멜</span>님은 <span class="wedding_select">결혼</span> 상대를 찾고 있습니다
+		</p>
+	</div>
+	<div class="info_box_wrap">
+		<div class="profile_detail_txtbox">
+			<span class="profile_photo_box2">
+				<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum('162076','');"><img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWIzdUJkb1NIZUloVW1KVmdvYm0x" width="70" height="60"></a>
+				<span class="number">13</span>
+			</span>
+			<ul class="profile_info_txt other font_m">
+				<li>대화명:<span class="pd_txt_02">아재스멜</span></li>
+				<li>지<span id="blank"></span>역:<span class="pd_txt_02">인천 &gt; 연수구</span></li>
+				<li>성혼유형:<span class="pd_txt_02">결혼 <span style="color:#2891B6">(남성)</span></span></li>
+			</ul>
+		</div>
+		<div class="new_button_box">
+			<ul>
+				<li id="blockBtn"><a href="javascript:void(0);" onclick="$.userBlockProfile('block','162076','148362');" class="btn_new font_b font_block"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img3/btn_ico_block.png" width="17" height="17" alt="차단하기">차단하기</a></li>
+				<li id="interestMsg">
+					<span class="inter_new_badge" onclick="$.interestView('162076');"></span>
+					<a href="javascript:void(0);" onclick="$.interestView('162076');" id="interest" class="btn_new font_b font_interest"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img3/btn_ico_interest.png" width="17" height="17" alt="관심있어요">관심있어요</a>
+				</li>
+				<li><a href="javascript:void(0);" onclick="$.goCall({memNo:'162076', memNick:'아재스멜', memSex:'m', memAge:'45', distance:'인천'});" class="btn_new_last font_b font_talk"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img3/btn_ico_talk.png" width="17" height="17" alt="연락하기">연락하기</a></li>
+			</ul>
+		</div>
+		<!--<div id="spaceTitTxt" style="clear:both;width:100%;height:0px;"></div>-->
+		<div id="secretInfo">
+			<div class="tit_txt02 font_m">※ <img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_prime_secret03.png" width="34" height="14" alt="숨김정보"> 는 <span style="color:#e0ff75;">아재스멜</span>님의 <span id="secretInfoTxt">가려진</span> 정보입니다.</div>
+		</div>
+		<!--20171027 정우아 상단_스페셜자기소개 추가-->
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/head_special.png" width="25" height="25" alt="스페셜">스페셜 자기소개 
+			</p>
+            <div class="info_txt_list" style="text-align:center;">
+                    <div class="font_m" style="display:inline-block;">
+                            <div class="resist_gif">
+                               <a href="#" class="special_a">
+                                    <div class="resist_title">
+                                      <span class="photo_num">0</span>
+                                       움짤소개
+                                    </div>
+                                    <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_icon.png" width="42px" height="53px" />
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="font_m" style="display:inline-block;">
+                        <a href="#" class="special_a">
+                            <div class="resist_gif">
+                               <a href="#" class="special_a">
+                                    <div class="resist_title">
+                                      <span class="photo_num">1</span>
+                                       음성소개
+                                    </div>
+                                    <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/voice_icon.png" width="42px" height="53px" />
+                                </a>
+                            </div>
+                        </a>
+                    </div>   
+            </div>
+            <a href="#">
+        </div>
+        <!--//20171027 정우아 상단_스페셜자기소개 추가-->	
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_01.jpg" width="25" height="25" alt="정보">정보
+			</p>
+			<div class="info_txt_list">
+				<div class="font_m info_border" style="height: 32px;">이름
+					<span id="printName">여○○<a href="javascript:void(0);" class="btn_look_secret btn_detail" data-wealthtype="e" style="padding:4px 17px 6px 11px;"><span class="photo_num">1</span>혼인관계증명서</a></span>
+				</div>
+				<div class="font_m info_border" style="height: 32px;">나이
+					<span>45세(12월생/소띠)</span>
+				</div>
+				<div class="font_m info_border" id="brothersSistersTxt" style="height: 32px;">형제관계<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:70%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="mateHtownTxt" style="height: 32px;">고향<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="jobTxt">직업<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:54%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret btn_detail" data-wealthtype="f" style="padding:4px 17px 6px 11px;"><span class="photo_num">1</span>직업사진</a></span></div>
+				<div class="font_m info_border" id="salaryTxt" style="height: 32px;">연봉<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:54%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret btn_detail" data-wealthtype="b" style="padding:4px 17px 6px 11px;"><span class="photo_num">1</span>연봉사진</a></span></div>
+				<div class="font_m info_border" id="possessPropertyTxt" style="height: 32px;">보유재산<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:50%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="mateCareerTxt" style="height: 32px;">학력<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:54%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret btn_detail" data-wealthtype="c" style="padding:4px 17px 6px 11px;"><span class="photo_num">1</span>학력사진</a></span></div>
+				<div class="font_m info_border" id="studyAbroadTxt" style="height: 32px;">유학경험<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" style="height: 32px;">차량
+					<span>중형 <a href="javascript:$.goPhotoMore('view','162076','wealth','d');" class="btn_detail font_m"><span class="photo_num">1</span>차량사진</a></span>
+				</div>
+				<div class="font_m info_border" id="religionTxt" style="height: 32px;">종교<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:20%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span>									</div>
+			</div>
+					</div>
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_02.jpg" width="25" height="25" alt="정보">외모/취미/기타
+			</p>
+			<div class="info_txt_list">
+				<div class="font_m info_border" id="bodySizeTxt" style="height: 32px;">키 / 체중<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="smokeTypeTxt" style="height: 32px;">흡연 경력<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:40%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="alcoholTypeTxt" style="height: 32px;">음주량<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="healthTypeTxt" style="height: 32px;">건강관리<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" style="height: 32px;">스타일
+					<span>날씬함</span>
+				</div>
+				<div class="font_m info_border" id="fashionStyleTxt" style="height: 32px;">패션스타일<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="bloodTxt" style="height: 32px;">혈액형<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:20%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="mateCharcTxt" style="height: 32px;">성격<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m info_border" id="favorFoodTxt" style="height: 32px;">선호음식<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+				<div class="font_m" id="mateHobbyTxt">취미<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+			</div>
+		</div>
+		<div class="info_text mg_top">
+			<p class="first_head font_b" style="letter-spacing:-1px;">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/prime/icon_p.png" width="25" height="25" alt="재혼">
+				<span>부모님은 살아계십니까?</span>
+				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px"></span>
+			</p>
+			<div class="etc_secret">
+				<div class="font_m" id="parentLiveTxt"><span class="prime_secret_box_02"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret2">보기</a></span></div>
+			</div>
+		</div>
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_05.jpg" width="25" height="25" alt="정보">희망 배우자 정보
+			</p>
+			<div class="info_txt_list">
+		        <div class="font_m info_border" id="wishAgeTxt" style="height: 32px;">나이<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:40%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+		        <div class="font_m info_border" id="wishLocTxt" style="height: 32px;">지역<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:75%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+		        <div class="font_m info_border" id="wishReligionTxt" style="height: 32px;">종교<span><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;margin-bottom:-4px;width:30%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret">보기</a></span></div>
+			</div>
+		</div>
+
+		<div class="info_text mg_top">
+			<p class="first_head font_b" style="letter-spacing:-1px;position:relative; border-radius:3px">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/prime/icon_score.png" width="25" height="25" alt="점수">
+				<span class="info_title">배우자로서 나는 몇점 인가요?</span>
+				<span id="myPointContTxt" class="mypoint_secret"><span class="prime_secret_box_02"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:30%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret2">보기</a></span></span>
+			</p>
+		</div>
+		<!-- 언제 결혼할 계획 추가 #819-->
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/icon_wd.png" width="25" height="25" alt="결혼">언제 결혼할 계획이세요?
+			</p>
+			<div class="info_txt_list">
+				<div class="info_msg_box font_m">앞으로 <strong>"언제든지"</strong> 결혼할 계획입니다</div>
+			</div>
+		</div>
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_03.jpg" width="25" height="25" alt="정보">자기소개글				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px">(한글 30자~300자,&nbsp;</span>
+				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px; font-weight:bold;">수정횟수&nbsp;:&nbsp;28회</span>
+				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px">)</span>
+			</p>
+			<div class="info_txt_list">
+				<div class="info_msg_box font_m">인연이란 때가 되면 자연스레 만나게 되는줄 알았네요~<br>
+그러나 다른 사람들에겐 너무나 평범한 일인데 저에겐 평범한 일이 아니었습니다.<br>
+지금 생각해보니 인연이란 만남의 기회조차 가지려고 노력하지 않는 사람에겐 올 수 없다는 걸..<br>
+절실히 깨닫고 이제서야 늦은 감이 있지만 좋은 인연 만날 기회를 가져보려 합니다.<br>
+바램이 있다면 만남에 있어 진실되고 진중하면서 마음이 순수한 분이라면 좋겠네요~<br>
+상호간의 신뢰와 믿음, 배려와 이해를 바탕으로한 비슷한 가치관을 지닌 지혜로운 분이시라면 누구든지 환영합니다.<br>
+메세지 남겨주시면 연락드리겠습니다~</div>
+			</div>
+		</div>
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/prime/ico_info_fam.jpg" width="25" height="25" alt="정보">
+				<span id="famTitle">가족소개글</span>
+				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px">(한글 30자~300자,&nbsp;</span>
+				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px; font-weight:bold;">수정횟수&nbsp;:&nbsp;93회</span>
+				<span class="font_m" style="color:gray;font-size:0.8em;letter-spacing:-1px">)</span>
+			</p>
+			<div class="fam_list" id="famContsTxt">
+				<span class="prime_secret_box_02"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:85%;" width="125" height="19"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:85%;" width="125" height="19"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:40%;" width="125" height="19"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:65%;" width="125" height="19"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:85%;" width="125" height="19"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:85%;" width="125" height="19"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/background_bg.png" id="secretArea" style="margin-top:6px;width:30%;" width="125" height="19"><a href="javascript:void(0);" class="btn_look_secret2">보기</a></span>
+			</div>
+		</div>
+		<div class="info_text mg_top" id="profile_photo">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_04.jpg" width="25" height="25" alt="정보">본인소개사진
+				<span class="font_m" style="color:black;font-size:0.9em">(최대20장까지)</span>
+			</p>
+			<p class="save_photo font_m">
+				총 8장 ( <span style="color:#4f6dc1">인증사진 4장</span> / <span style="color:#818181">소개사진 4장</span> )
+			</p>
+			<div class="info_txt_list2">
+				<div class="info_pr_photo_box font_m" id="photoDataList">
+					<span class="pr_photo_box float_l" id="photo_wrap_307603">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum('162076','307603');" id="photo_307603" class="pr_photo"><img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWIzdUJkb1NIZUloVW1KVmdvYm0x"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_268282">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','268282');" id="photo_268282" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJucUJkb2lIZTR4WW1KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_268281">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','268281');" id="photo_268281" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJucUJkb2lIZTR4V21KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_261799">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','261799');" id="photo_261799" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJubUVkNEdDZFlsVW1KVmdwN2Ux"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_366133">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','366133');" id="photo_366133" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1walozcURkNE9IZm9sY21KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_274915">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','274915');" id="photo_274915" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJudCtkb2VGZW8xVW1KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_274913">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','274913');" id="photo_274913" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJudCtkb2VGZW94Vm1KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+					<span class="pr_photo_box float_l" id="photo_wrap_274912">
+						<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','274912');" id="photo_274912" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=photo&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJudCtkb2VGZW90Ym1KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+					</span>
+				</div>
+			</div>
+		</div>
+         <!--20171027 정우아_하단 스페셜 자기소개 추가-->
+        <div class="info_text mg_top" id="profile_photo">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/head_special.png" width="25" height="25" alt="스페셜">스페셜 자기소개
+			</p>
+			<p class="save_photo font_m">
+				총 6개 ( <span style="color:#a94cc8">움짤 3개</span> / <span style="color:#7163d8">음성 3개</span> )
+			</p>
+			<div class="info_txt_list2">
+				<div class="info_pr_photo_box font_m">
+                  <div class="pr_photo_box float_l" style="text-align:center;">
+                       <div class="special_view">
+                            <a href="#" class="special_view_a">
+                                <span class="badge_gif">
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_badge.png" alt="gif" width="34px" height="16px"  />
+                                </span>
+                               <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_pic.png" alt="gif" width="51px" height="57px" style="margin-top:19px;"/>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="pr_photo_box float_l" style="text-align:center;">
+                       <div class="special_view">
+                            <a href="#" class="special_view_a">
+                                <span class="badge_gif">
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_badge.png" alt="gif" width="34px" height="16px"  />
+                                </span>
+                               <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_pic.png" alt="gif" width="51px" height="57px" style="margin-top:19px;"/>
+                            </a>
+                       </div>
+                   </div>
+                   <div class="pr_photo_box float_l" style="text-align:center;">
+                       <div class="special_view">
+                            <a href="#" class="special_view_a">
+                                <span class="badge_gif">
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_badge.png" alt="gif" width="34px" height="16px"  />
+                                </span>
+                               <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/gif_pic.png" alt="gif" width="51px" height="57px" style="margin-top:19px;"/>
+                           </a>
+                       </div>
+                   </div>
+                   <!--voice-->
+                    <div class="pr_photo_box float_l" style="text-align:center;">
+                       <div class="special_view">
+                            <a href="#" class="special_view_a">
+                                <span class="badge_gif">
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/voice_badge.png" alt="voice" width="51px" height="16px"  />
+                                </span>
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/mike.png" alt="음성" width="45px" height="43px" style="margin-top:24px;"/>
+                            </a>
+                       </div>
+                   </div>
+                   <!--//voice-->
+                   <!--voice-->
+                    <div class="pr_photo_box float_l" style="text-align:center;">
+                       <div class="special_view">
+                            <a href="#" class="special_view_a">
+                                <span class="badge_gif">
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/voice_badge.png" alt="voice" width="51px" height="16px"  />
+                                </span>
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/mike.png" alt="음성" width="45px" height="43px" style="margin-top:24px;"/>
+                            </a>
+                       </div>
+                   </div>
+                   <!--//voice-->
+                   <!--voice-->
+                    <div class="pr_photo_box float_l" style="text-align:center;">
+                       <div class="special_view">
+                            <a href="#" class="special_view_a">
+                                <span class="badge_gif">
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/voice_badge.png" alt="voice" width="51px" height="16px" />
+                                </span>
+                                   <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/special/mike.png" alt="음성" width="45px" height="43px" style="margin-top:24px;"/>
+                            </a>
+                       </div>
+                   </div>
+                   <!--//voice-->
+                </div>
+			</div>
+		</div>
+        <!--//20171027 정우아_하단 스페셜 자기소개 추가-->
+        <div class="info_text mg_top" id="wealth_photo_e" style="display:block">
+						<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_cert.png" width="25" height="25" alt="정보" style="margin-left:3px;">혼인관계증명서 사진
+				<span class="font_m" style="font-size:0.9em">(최대2장)</span>
+							</p>
+			<div class="info_txt_list2" style="margin-top:10px;">
+				<div class="info_pr_photo_box font_m" id="photoDataList_e">
+							<span class="pr_photo_box float_l" id="photo_wrap_19964">
+		<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','19964','wealth', 'e');" id="photo_19964" class="pr_photo"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"><img src="http://photo.yeoboya.com/prg/bimg.php?type=wealth&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWNIdUhkb2VIZVl0YW1KVmdvYm0x"></a>
+													</span>
+																<div id="noPhotoRelation" class="info_txt_list2" style="display:none">
+						<div class="info_pr_photo_box font_m" id="photoDataList" style="padding-bottom:0px;">
+							<div class="info_txt_list">
+								<p class="intro_c">등록하신 증명서는 이성에게만 보이기 때문에<br>신뢰감을 줄 수 있어 관심도가 높아집니다.
+								</p>
+								<p class="c_btn"><a href="javascript:void(0);" onclick="$.relationInfoLayer();">증명서 발급방법 보기</a></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+						<div class="info_text mg_top" id="wealth_photo_f" style="display:block">
+						<p class="first_head font_b" style="color:#15784d;">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/job_circle.png" width="25" height="25" alt="정보">직업사진
+				<span class="font_m" style="color:#15784d;font-size:0.9em">(최대5장)</span>
+							</p>
+			<div class="info_txt_list2" style="margin-top:10px;">
+				<div class="info_pr_photo_box font_m" id="photoDataList_f">
+							<span class="pr_photo_box float_l" id="photo_wrap_23226">
+		<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','23226','wealth', 'f');" id="photo_23226" class="pr_photo"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"><img src="http://photo.yeoboya.com/prg/bimg.php?type=wealth&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1walozdC9kMytEZUkxWG1KVmdwN2Ux"></a>
+														</span>
+										</div>
+			</div>
+		</div>
+
+		<div class="info_text mg_top" id="wealth_photo_b" style="display:block">
+			<p class="first_head font_b" style="color:#15784d;">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_07.jpg" width="25" height="25" alt="정보">연봉사진
+				<span class="font_m" style="color:#15784d;font-size:0.9em">(최대5장)</span>
+			</p>
+			<div class="info_txt_list2" style="margin-top:10px;">
+				<div class="info_pr_photo_box font_m" id="photoDataList_b">
+
+			<span class="pr_photo_box float_l" id="photo_wrap_11922">
+			<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','11922','wealth', 'b');" id="photo_11922" class="pr_photo"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"><img src="http://photo.yeoboya.com/prg/bimg.php?type=wealth&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJudUJkNGlDZm9sYm1KVmdvYm0x"></a>
+								</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="info_text mg_top" id="wealth_photo_c" style="display:block">
+			<p class="first_head font_b" style="color:#15784d;">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_08.jpg" width="25" height="25" alt="정보">학력사진
+				<span class="font_m" style="color:#15784d;font-size:0.9em">(최대5장)</span>
+			</p>
+			<div class="info_txt_list2" style="margin-top:10px;">
+				<div class="info_pr_photo_box font_m" id="photoDataList_c">
+
+			<span class="pr_photo_box float_l" id="photo_wrap_11030">
+			<a href="javascript:void(0);" onclick="$.goPhotoViewAlbum2('162076','11030','wealth', 'c');" id="photo_11030" class="pr_photo"><img src="http://photo.yeoboya.com/prg/bimg.php?type=wealth&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWJucUFlSUdGZm90Vm1KVmdvYm0x"><img src="http://image.yeoboya.com/imgs/new_wedding/prime/photo_prime_bg.png" class="photo_prime_bg" width="164" height="164" alt="프라임"></a>
+								</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="info_text mg_top" id="wealth_photo_d" style="display:block">
+			<p class="first_head font_b" style="color:#15784d;">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/ico_info_09.jpg" width="25" height="25" alt="정보">차량사진
+				<span class="font_m" style="color:#15784d;font-size:0.9em">(최대5장)</span>
+			</p>
+			<div class="info_txt_list2" style="margin-top:10px;">
+				<div class="info_pr_photo_box font_m" id="photoDataList_d">
+						<span class="pr_photo_box float_l" id="photo_wrap_17100">
+				<a href="javascript:void(0);" onclick="$.goPhotoMore('view', '162076','wealth','d','17100');" id="photo_17100" class="pr_photo"><img src="http://photo.yeoboya.com/prg/yimg.php?type=wealth&amp;sdir=&amp;viewname=YUgrQWRvYUlwSXBVYW1waWNIcUJkb2FGZkloWG1KVmdvYm0x"></a>
+			
+											</span>
+				</div>
+			</div>
+		</div>
+		<!--20160225 가입경로 추가 / cuteohj-->
+		<div class="info_text mg_top">
+			<p class="first_head font_b">
+				<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/ico_joinway.jpg" width="25" height="25" alt="정보">가입경로
+			</p>
+			<div class="info_txt_list">
+				<div class="info_msg_box font_m">TV광고를 보고 가입했어요!</div>
+			</div>
+		</div>
+		<div class="btn_box">
+			<!--
+			<a href="javascript:void(0);" onclick="$.reportProc('162076','m',0);" class="btn_report"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_report.jpg" width="125" height="40" alt="허위프로필신고"></a>   -->
+			<a href="javascript:void(0);" onclick="$.reportChk();" class="btn_report"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_report.jpg" width="125" height="40" alt="허위프로필신고"></a>
+			<a href="javascript:void(0);" onclick="$.goCall({memNo:'162076', memNick:'아재스멜', memSex:'m', memAge:'45', distance:'인천'});" class="btn_call_img2"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_call_img2.jpg" width="105" height="40" alt="연락하기"></a>
+		</div>
+		<div class="footer bg_color"></div>
+	</div>
+	<!-- 하단 네비게이션 -->
+	<div class="dt_secret_wrap">
+		<div class="dt_scrt_pop">
+			알　　림
+			<div class="btn_scrt_clse">
+				팝업 닫기
+			</div>
+		</div>
+		<div class="dt_secret">
+			<div class="scrt_top">
+				<div class="top_line"></div>
+				<div class="top_txt font_m"> <span class="fc_gray">아재스멜</span>님의 프로필은
+					<br> <span class="scrt_img">시크릿</span> 상태입니다.
+					<br> <span class="fc_gray">아재스멜</span>님의 <span class="fc_pink">열람허용</span> 후
+					<br> 프로필 확인이 가능합니다. </div>
+			</div>
+			<div class="scrt_bot">
+				<div class="bot_txt"><span class="fc_purple font_b">열람 요청</span>하시겠습니까?</div>
+				<div class="btn_cancel"> <a href="javascript:void(0);" class="btn_scrt_clse font_m">취소</a> </div>
+				<div class="btn_request"> <a href="javascript:void(0);" onclick="$.secretOpenReq('162076','m'); $('.dt_secret_wrap').hide();" class="font_m">열람요청하기</a> </div>
+				<div class="btn_what_box">
+				<div class="btn_what"> <a href="javascript:void(0);" onclick="$.goSecret(); $('.dt_secret_wrap').hide();" class="font_m">내프로필 시크릿 상태로 변경하기</a> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+$(document).ready(function() {
+	// 시크릿 팝업 닫기
+	$('.btn_scrt_clse').on('click', function(){
+		$('.dt_secret_wrap').hide();
+	});
+});
+$(window).load(function() {
+	if(localStorage.moveBottom == '1') {
+		$('html, body').stop().animate({scrollTop:$(document).height()},100);
+		localStorage.moveBottom = '';
+	}
+});
+</script><style>
+.report_wrap {position:fixed; top:15%; left:5%; width:90%; height:auto; margin:20px auto; border:1px solid #3a3030; border-radius:10px; display:none; z-index:95;}
+.report_wrap .report_header {width:100%; height:34px; border-top:1px solid #6d5859; border-bottom:1px solid #3a3030; border-top-right-radius:10px; border-top-left-radius:10px; background:-moz-linear-gradient(top, #533b3c 0%, #483334 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#533b3c), color-stop(100%,#483334)); background:-webkit-linear-gradient(top, #533b3c 0%,#483334 100%); background:-o-linear-gradient(top, #533b3c 0%,#483334 100%); background:-ms-linear-gradient(top, #533b3c 0%,#483334 100%); line-height:34px; letter-spacing:-1px;}
+.report_wrap .report_header .report_txt_01 {padding-left:55px; color:#fff; font-size:15px}
+.report_wrap .report_header .report_txt_02 {color:#b6b6b6; font-size:13px;}
+.report_wrap img {display:block; position:absolute; z-index:999; top:-4px; left:9px;}
+.report_wrap ul {width:100%; height:auto; margin:0; padding:0; overflow:hidden;}
+.report_wrap ul li {width:100%; height:35px; padding-left:20px; border-top:1px solid #fff; border-bottom:1px solid #d0d0d1; background-color:#f2f2f5; color:#374148; font-size:14px; line-height:35px;}
+.report_wrap .last_li {display:block; width:100%; height:auto; padding:10px 20px; color:#727272; line-height:20px;}
+.report_wrap .last_li div {display:block; height:80px; background-size:35%; background-repeat:no-repeat;}
+.msg_radio_1 {position:absolute; z-index:-1000; left:-1000px; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; border:0; vertical-align:middle; clip:rect(0 0 0 0);}
+.msg_radio_1 {display:inline-block; height:25px; background-repeat:no-repeat; background-position:0 0; vertical-align:middle;}
+.radio_css01 {display:inline-block; float:right; height:25px; margin-top:3px; padding-right:30px; background-repeat:no-repeat; background-position:0 0;}
+.msg_radio_1:checked + .radio_css01 {background-position:0 -25px;}
+input[type=radio].radio_css01 {background-position:0 -25px;}
+label.radio_label { width:100%; height:25px; color:#374148; font-size:14px; padding:0; margin:0 0 10px 0; }
+label.radio_css01 {background-image:url("http://image.yeoboya.com/imgs/new_wedding/mobile/img/hope_radio.png");background-size:25px 50px; }
+.report_btn_cancel {float:left; width:50%; height:35px; border:none; border-bottom-left-radius:10px; background-color:#c5beb6; color:#fff; -webkit-appearance:none;-moz-appearance:none;appearance:none;outline:none !important;}
+.report_btn_rpt {float:right; width:50%; height:35px; border:none; border-bottom-right-radius:10px; background-color:#7a7370; color:#fff;}
+
+</style>
+  <!-- ################################### [허위프로필신고] 클릭시 보이는 신고창 ################################### -->
+  <div id="profileReport" class="report_wrap">
+    <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/ico_report.png" width="42" height="43" alt="아이콘">
+    <div class="report_header font_b">
+      <span class="font_b report_txt_01">허위신고하기<span class="font_m report_txt_02">(신고 사유를 선택하여 주세요)</span></span>
+    </div>
+    <ul id="profileReportUl">
+      <span></span>
+      <div>
+        <button href="javascript:void(0);" onclick="$.cancelMsg()" class="font_m report_btn_cancel">취소</button>
+        <button href="javascript:void(0);" onclick="$.sendProfile();" class="font_m report_btn_rpt sendReport">신고하기</button>
+      </div>
+    </ul>
+  </div>
+  <!-- ################################### 채팅창/메시지박스 [신고하기] 클릭시 보이는 신고창 ################################### -->
+  <div id="msgReport" class="report_wrap">
+    <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/ico_report.png" width="42" height="43" alt="아이콘">
+    <div class="report_header font_b">
+      <span class="font_b report_txt_01">신고하기<span class="font_m report_txt_02">(신고 사유를 선택하여 주세요)</span></span>
+    </div>
+    <ul id="msgReportUl">
+      <span></span>
+      <div>
+        <button href="javascript:void(0);" onclick="$.cancelMsg()" class="font_m report_btn_cancel">취소</button>
+        <button href="javascript:void(0);" onclick="$.sendMsg()" class="font_m report_btn_rpt sendReport">신고하기</button>
+      </div>
+    </ul>
+  </div>
+  <!-- ################################### [추가사진 허위신고] 클릭시 보이는 신고창 ################################### -->
+  <div id="wealthReport" class="report_wrap">
+    <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/ico_report.png" width="42" height="43" alt="아이콘">
+    <div class="report_header font_b">
+      <span class="font_b report_txt_01">허위신고하기<span class="font_m report_txt_02">(신고 사유를 선택하여 주세요)</span></span>
+    </div>
+    <ul id="wealthReportUI">
+      <span></span>
+      <div>
+        <button href="javascript:void(0);" onclick="$.cancelMsg()" class="font_m report_btn_cancel">취소</button>
+        <button href="javascript:void(0);" onclick="$.sendProfile();" class="font_m report_btn_rpt sendReport">신고하기</button>
+      </div>
+    </ul>
+  </div>
+  <input type="hidden" id="pmemNo" value="162076">
+<script>
+(function($) {
+		$.wealthHint = function(hintNum){
+		var hintOnOff = $('#give-help_in-myprofile_'+hintNum).data('onoff');
+		if(hintOnOff == 'on'){
+			$('#give-help_in-myprofile_'+hintNum).data('onoff','off').hide();
+		}else{
+			$('#give-help_in-myprofile_'+hintNum).data('onoff','on').show();
+		}
+	};
+	// 회원차단
+	$.userBlockProfile = function(actMode, memNo, matchNo){ // -------------------------->> 오현지 수정 matchNo
+			var getMate = $.ajaxGetMate($.cookie('gCCV:NO'));
+			if(isChkEmptyProfileItem(getMate, 'profile')){
+				emptyProfileItemMsg('', getMate, $.cookie('gCCV:NO'));
+				return;
+			}
+			if(actMode == 'block'){
+					$.confirm('차단하시겠습니까?<br><br>차단한 회원의 프로필은 보이지 않으며<br>메시지도 주고 받을 수 없습니다.', '닫기', '차단하기', null, function() {
+							$.goBlockUnblock(memNo, matchNo, 'block', function(data) {
+									if(data == "1") {
+											$.alert("차단하였습니다.<br><br>차단해제는 \"더보기>차단회원관리\"에서<br>하실 수 있습니다.", null, function(){
+												if($.cookie('siteLayout') == 'w'){
+														$("#blockBtn").html('<a href="javascript:void(0);" onclick="$.userBlockProfile(\'unblock\',\''+memNo+'\',\''+matchNo+'\');" class="btn_new font_b font_block"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img3/btn_ico_block.png" width="17" height="17" alt="차단하기">차단해제</a>');
+												}else{
+														if(localStorage.mainUrl) {
+															$.finishPop(localStorage.mainUrl);
+															//localStorage.removeItem('mainUrl');
+														}	else {
+															$.finishPop('/');
+														}
+												}
+											});
+									} else {
+											$.alert("시스템 오류입니다.<br>다시 시도해 주세요.");
+									}
+							});
+					});
+			}else{
+					$.confirm('상대회원님을 차단해제 하시겠습니까?', '취소','해제', null, function() {
+							$.goBlockUnblock(memNo, matchNo, 'unblock', function(data) {
+									if(data == "1") {
+												if($.cookie('siteLayout') == 'w'){
+														$("#blockBtn").html('<a href="javascript:void(0);" onclick="$.userBlockProfile(\'block\',\''+memNo+'\',\''+matchNo+'\');" class="btn_new font_b font_block"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img3/btn_ico_block.png" width="17" height="17" alt="차단하기">차단하기</a>');
+												}else{
+														if(localStorage.mainUrl) {
+															$.finishPop(localStorage.mainUrl);
+															//localStorage.removeItem('mainUrl');
+														}	else {
+															$.finishPop('/');
+														}
+												}
+									} else {
+											$.alert("시스템 오류입니다.<br/>다시 시도해 주세요.");
+									}
+							});
+					});
+			}
+	}
+			$.sspinShow();
+		setTimeout(function() {
+			$.sspinRemove();
+		}, 300);
+		// go photo album view
+	$.goPhotoMore = function(actMode, memNo, photoType, photoSlct, photoNo) {
+			if(actMode == 'view'){
+					var ptrGen = "m";
+					var isSelf = "";
+					if(!isSelf && $.cookie('gCCV:SEX') == ptrGen) {
+							$.alert("이 정보는 이성회원만 볼 수 있습니다.");
+					}else{
+							var getMate = $.ajaxGetMate($.cookie('gCCV:NO'));
+							if(getMate != false) {
+									var href = '/?chnl=cont&ctrl=photoview&dest=wealth&photoSlct='+photoSlct+'&photoNo='+photoNo+'&memNo=' + memNo;
+									if(opener) {
+											window.location.href = href;
+									}	else {
+											var reLoadStr = '';
+											switch(_dest) {
+													case 'profile':
+															reLoadStr = '';
+													break;
+													case 'profileEdit':
+															reLoadStr = 'result';
+													break;
+											}
+											$.openWin(href, 'photoview', reLoadStr);
+									}
+							}	else {
+									$.confirm('상대방 프로필 열람을 위해서는<br>내 프로필을 등록하셔야 합니다.','취소', '등록하기', null, function(){
+											$.goProfileEdit();
+									});
+							}
+					}
+			}else{
+					switch(photoSlct){
+							default:
+							case "b":
+									var destVal = 'salaryPhotoMng';
+							break;
+							case "c":
+									var destVal = 'careerPhotoMng';
+							break;
+							case "d":
+									var destVal = 'carPhotoMng';
+							break;
+					}
+					var openFile = '/?chnl=cont&ctrl=profile&dest=' + destVal + '&memNo=' + memNo;
+					if($.cookie('siteLayout') == 'w'){
+							$.openWin(openFile, 'profileMore', '');
+					}else{
+							location.href = openFile;
+					}
+			}
+	}
+	//프로필 더보기
+	$.goProfileMore = function(actMode, memNo){
+		switch(actMode){
+			default:
+			case "visit":
+				//var openFile = '/?chnl=cont&ctrl=visitlist&dest=index&memNo=' + memNo;
+				var openFile = '/?chnl=cont&ctrl=visitlist&dest=visitList&memNo=' + memNo;
+			break;
+			case "interest":
+				var openFile = '/?chnl=cont&ctrl=interestList&dest=index&memNo=' + memNo;
+			break;
+		}
+		if($.cookie('siteLayout') == 'w'){
+			$.openWin(openFile, 'profileMore', '');
+		}
+		else
+		{
+			location.href = openFile;
+		}
+	}
+	//프로필 열람권 사용유저 보기.
+	$.goOpenProfileUser = function(_memNo){
+		var openFile = '/?chnl=cont&ctrl=openProfileList&dest=index&memNo=' + _memNo;
+		if($.cookie('siteLayout') == 'w'){
+			$.openWin(openFile, 'openProfileUser', '');
+		}
+		else{
+			location.href = openFile;
+		}
+	}
+}(jQuery));
+	// 신고된 정보인지 확인 (허위프로필만 적용, 프로필사진의 경우 내부 스크립트로 인해 따로 처리되고 있음)
+  var reportNum = 0;
+	$.reportChk = function () {
+		var getMate = $.ajaxGetMate($.cookie('gCCV:NO'));
+		if(isChkEmptyProfileItem(getMate, 'profile')){
+			emptyProfileItemMsg('', getMate, $.cookie('gCCV:NO'));
+			return;
+		}
+    //alert("pmemNo:"+pmemNo);
+    if(reportNum == 0) {
+      $.ajax({
+        url: "/?chnl=ajax&ctrl=&dest=reportChk",
+        method: 'POST',
+        data: {"pmemNo": pmemNo, "regNo": "0"},
+        timeout: 10000
+      })
+      .done(function(data) {
+        switch(data) {
+          case '1' :
+            // 신고안된 허위프로필 이면 신고사유선택창 띄우고 신고진행
+            $.btnClick('btnReport', 'm', '', '0');
+            break;
+          case '-1' :
+            $.toast('이미신고하였습니다');
+            reportNum++;
+            break;
+          default :
+            $.toast('시스템 오류입니다. 다시 시도해 주세요.');
+            history.back();
+            break;
+        }
+      });
+    }
+    else {
+      $.toast('이미신고하였습니다');
+    }
+	}
+	// 위로 올리기
+	$.upMeet = function(memNo) {
+		$.ajax({
+			url: "/?chnl=cont&ctrl=mate/ajax&dest=ajaxMeetUp",
+			dataType: 'html',
+			method: 'POST',
+			data: {"memNo":memNo},
+			timeout: 10000
+		})
+		.done(function(data) {
+			switch(data) {
+				case '1' :
+					$.toast('위로 올리기를 하였습니다.', function(){
+						if($isApp){
+							$.finishPop('/');
+						}else{
+							window.opener.location.reload();
+							$.finishPop('/');
+						}
+					});
+					break;
+				case '0' :
+					$.toast('잠시 후 다시 시도하여 주세요.', function(){
+						window.location.reload();
+					});
+					break;
+				case '-1' :
+					$.toast('자기소개글 등록 후 사용해 주세요', function(){
+						$("#myContsBtn").click();
+					});
+					break;
+			}
+		});
+	}
+	// 선택 삭제
+	$.multiMateDel = function() {
+			if(($('input:checkbox[name="checkbox_lite"]:checked').length)<1){
+					$.alert('삭제하실 중매회원을 한명이상 선택하여주세요.');
+					return;
+			}
+			$.confirm("선택된 회원을 삭제하시겠습니까?","취소","삭제",null, function() {
+					var pmemNos = "";
+				  $('input:checkbox[name="checkbox_lite"]:checked').each(function() {
+				      pmemNos = $(this).val() + ',' + pmemNos;
+				  });
+					var postData = {'pmemNos':pmemNos};
+					$.ajax({
+							async: false,
+							type: "post",
+							url: '/?ctrl=profile/ajax&dest=ajaxProfileDel',
+							data: postData,
+							dataType: "JSON",
+							timeout: 30000,
+							success: function(result){	// 성공시
+									switch(result){
+											case "1":
+													$.alert('정상적으로 삭제되었습니다.',null,function(){
+															location.reload();
+													});
+											break;
+											case "2":
+													$.alert("삭제 정보가 부족합니다.<br/>페이지를 다시 로딩합니다.",null,function(){
+															location.reload();
+													});
+											break;
+									}
+							},
+							error: function(request,status,error){ //실패시
+									$.alert("시스템 오류입니다.<br/>페이지를 다시 로딩합니다.",null,function(){
+											location.reload();
+									});
+							}
+					});
+			});
+	}
+	$.matchMemContModi = function(actVal){
+			if(actVal == 'insView'){
+					$("#divMatchMemCont").hide();
+					$("#divMatchMemModi").show();
+					$("#matchMemModiConts").focus();
+			}else{
+					// 한글 30자 이상 300자 미만
+					var $matchMemConts = $("#matchMemModiConts");
+					if($.trim($matchMemConts.val()).length < 30) {
+							$.toast("자기소개글을 30자 이상 입력하여주세요.");
+							$matchMemConts.val($.trim($matchMemConts.val()));
+							$matchMemConts.focus();
+							return;
+					}
+					if($.trim($matchMemConts.val()).length > 300) {
+							$.toast("자기소개글을 300자 이하로 입력하여주세요.");
+							$matchMemConts.val($.trim($matchMemConts.val()).substring(0,300));
+							$matchMemConts.focus();
+							return;
+					}
+					// 프로필 등록
+					$.ajax({
+							url: "/?chnl=cont&ctrl=profile/ajax&dest=ajaxMatchMemContsIns",
+							method: 'POST',
+							data: {'matchMemConts':$("#matchMemModiConts").val()},
+							timeout: 10000
+					})
+					.done(function(data) {
+						switch(data) {
+							case '1' :
+								//$.adLinkCall(); //광고타고오면
+								//$.adLinkLog();	//광고로그기록
+								$.toast('적용되었습니다.', function(){
+									window.location.reload();
+								});
+							break;
+						}
+					});
+			}
+	}
+$(window).load(function() {
+	if(localStorage.moveBottom == '1') {
+		$('html, body').stop().animate({scrollTop:$(document).height()},100);
+		localStorage.moveBottom = '';
+	}
+	$(window).resize(function() {
+		$('.info_text .info_border').each(function(idx,el){
+			if(idx != '4') {
+				var span = $('.info_text .info_border:eq(' + idx + ')').children('span');
+				var spanH = span.height();
+				if (spanH > 33) {
+					spanH = 40;
+					span.css({"line-height": "17px", "padding-top": "3px"});
+					$(this).css({"line-height": "40px"});
+				}
+				$('.info_text .info_border:eq(' + idx + ')').height(spanH);
+			}
+		});
+	}).resize();
+});
+$(document).ready(function() {
+	// add by kossy2k [20170929] ==> 사진보기 버튼 클릭시 해당 사진리스트 위치로 포커스 이동
+	var m_wealthBtnType = '';
+	var m_wealthPhotoCntObj = {};	// wealth 관련 사진등록된 값이 있나없나
+	m_wealthPhotoCntObj.b = '1';	// 연봉
+	m_wealthPhotoCntObj.c = '1';	// 학력
+	m_wealthPhotoCntObj.d = '1';		// 차량
+	m_wealthPhotoCntObj.e = '1';	// 혼인관계
+	m_wealthPhotoCntObj.f = '1';		// 직업
+
+	// add by kossy2k [20170929] ==> 내가 상대방을 방문했을 때 내 사진을 등록하지 않았다면 개인정보사진 등록유도 위함 ( <== 20171024 by kossy2k 제거)
+	/*
+	var m_selfWealthPhotoCntObj = {};	// wealth 관련 사진등록된 값이 있나없나
+	m_selfWealthPhotoCntObj.b = '0';	// 연봉
+	m_selfWealthPhotoCntObj.c = '0';	// 학력
+	m_selfWealthPhotoCntObj.d = '0';		// 차량
+	m_selfWealthPhotoCntObj.e = '0';	// 혼인관계
+	m_selfWealthPhotoCntObj.f = '0';		// 직업
+
+	if(m_selfWealthPhotoCntObj.b=='0' && m_selfWealthPhotoCntObj.c=='0' && m_selfWealthPhotoCntObj.d=='0' && m_selfWealthPhotoCntObj.e=='0' && m_selfWealthPhotoCntObj.f=='0'){
+		var winHeight = $(window).height();
+		var bottomPosition = (winHeight/2)-50;
+		$.toast('내 프로필에서<br>혼인관계증명서,직업,연봉,학력,차량<br>사진을 등록할 수 있습니다.', function(){}, '3000');
+		$('#Toast').css({'background-color':'white','color':'black','border':'solid gray 1px','bottom':bottomPosition+'px'});
+	}
+	*/
+
+	$(window).scroll(function(){
+		var stPos = 225;
+		var infoBoxWrapWidth = $('.info_box_wrap').width();
+		if($(window).scrollTop() > stPos) {
+			$('#secretInfo').css({'position':'fixed','z-index':999,'top':0,'width':infoBoxWrapWidth}).children('.tit_txt02').css({'margin-top':'0'});
+		}
+		else {
+			$('#secretInfo').removeAttr('style').children('.tit_txt02').removeAttr('style');
+		}
+	}).scroll();
+	$.openProfile = function(rtnVal) {
+		$('#printName').html(rtnVal.printName);
+		$('#brothersSistersTxt').html(rtnVal.brothersSisters);
+		$('#mateHtownTxt').html(rtnVal.mateHtown);
+		$('#jobTxt').html(rtnVal.job);
+		$('#salaryTxt').html(rtnVal.salary);
+		$('#possessPropertyTxt').html(rtnVal.possessProperty);
+		$('#mateCareerTxt').html(rtnVal.mateCareer);
+		$('#studyAbroadTxt').html(rtnVal.studyAbroad);
+		$('#religionTxt').html(rtnVal.religion);
+		$('#bodySizeTxt').html(rtnVal.bodySize);
+		$('#smokeTypeTxt').html(rtnVal.somokeType);
+		$('#alcoholTypeTxt').html(rtnVal.alcoholType);
+		$('#healthTypeTxt').html(rtnVal.healthType);
+		$('#fashionStyleTxt').html(rtnVal.fashionStyle);
+		$('#bloodTxt').html(rtnVal.blood);
+		$('#mateCharcTxt').html(rtnVal.mateCharc);
+		$('#favorFoodTxt').html(rtnVal.favorFood);
+		$('#mateHobbyTxt').html(rtnVal.mateHobby);
+		$('#mateOffspringTxt').html(rtnVal.mateOffspring);
+		$('#parentLiveTxt').html(rtnVal.parentLive).addClass('info_msg_box').parent().removeClass('etc_secret').addClass('info_txt_list').parent().children('p').children('span').addClass('prime_mark02');
+		$('#divorceYearTxt').html(rtnVal.divorceYear).addClass('info_msg_box').parent().removeClass('etc_secret').addClass('info_txt_list').parent().children('p').children('span').addClass('prime_mark02');
+		$('#childRaiseTxt').html(rtnVal.childRaise).addClass('info_msg_box').parent().removeClass('etc_secret').addClass('info_txt_list').parent().children('p').children('span').addClass('prime_mark02');
+
+		$('#wishAgeTxt').html(rtnVal.wishAge);
+		$('#wishLocTxt').html(rtnVal.wishLoc);
+		$('#wishReligionTxt').html(rtnVal.wishReligion);
+		$('#famContsTxt').removeClass('fam_list').addClass('info_txt_list').html('').append('<div class="info_msg_box font_m">'+rtnVal.famConts+'</div>').parent().children('p').children('#famTitle').addClass('prime_mark03');
+		if (rtnVal.famContsColor) { $('#famContsTxt .info_msg_box').css({'color':rtnVal.famContsColor,'line-height':'16px','padding':'8px 0'}); }
+
+		//$('#respectPersonContTxt').html(rtnVal.respectPersonCont).addClass('info_msg_box').parent().removeClass('etc_secret').addClass('info_txt_list').parent().children('p').children('span').addClass('prime_mark02');
+		$('#myPointContTxt').removeClass('mypoint_secret').html(rtnVal.myPointCont).addClass('mypoint_open').parent().removeClass('etc_secret').addClass('info_txt_list').parent().children('p').children('.info_title').addClass('prime_mark02');
+		$('#photoDataList').html(rtnVal.photoData);
+		$('#photoDataList_e').html(rtnVal.photoData_e);
+		$('#photoDataList_f').html(rtnVal.photoData_f);
+		$('#photoDataList_b').html(rtnVal.photoData_b);
+		$('#photoDataList_c').html(rtnVal.photoData_c);
+		$(window).resize();
+	}
+
+	var wealthLayerFocus = function(){
+		document.getElementById('wealth_photo_'+m_wealthBtnType).tabIndex = -1;
+		document.getElementById('wealth_photo_'+m_wealthBtnType).focus();
+	}
+
+	$.primeProfile = function(pData,photoViewData) {
+		pData.type = 'prime';
+		$.ajax({
+			async: false,
+			type: "post",
+			url: '/?ctrl=profile/ajax&dest=ajaxPrimeProfile',
+			data: pData,
+			dataType: "JSON",
+			timeout: 30000,
+			success: function(result){	// 성공시
+				switch(result.msg){
+					case "1":
+						if (photoViewData && photoViewData.photoType) {
+							$.goPhotoMore('view', photoViewData.memNo, photoViewData.photoType, photoViewData.photoSlct, photoViewData.photoNo);
+						}else if(photoViewData) {
+							$.goPhotoViewAlbum(photoViewData.memNo,photoViewData.photoNo);
+						}else{
+							$.yeoboyaSpin('on');
+						}
+						setTimeout(function(){
+							$.openProfile(result.data);
+							$.yeoboyaSpin('off');
+							if(m_wealthBtnType && m_wealthPhotoCntObj[m_wealthBtnType]){	//
+								wealthLayerFocus();
+							}
+						},2000);
+					break;
+					default:
+					case "-1":
+						$.buyPop('','4');
+					break;
+					case "0" :
+						$.alert("시스템 오류입니다.<br/>페이지를 다시 로딩합니다.",null,function(){ location.reload(); });
+					break;
+				}
+			},
+			error: function(request,status,error){ //실패시
+				$.alert("시스템 오류입니다.<br/>페이지를 다시 로딩합니다.",null,function(){ location.reload(); });
+			}
+		});
+	}
+	$(document).on('click','.btn_look_secret, .btn_look_secret2, #secretArea',function() {
+		$this = $(this);
+		m_wealthBtnType = ($this.data('wealthtype')) ? $this.data('wealthtype') : '';
+		var getMate = $.ajaxGetMate($.cookie('gCCV:NO'));
+		if(isChkEmptyProfileItem(getMate, 'profile')){
+			emptyProfileItemMsg('', getMate, $.cookie('gCCV:NO'));
+			return;
+		}
+
+		var postData = {'type':'buy','memNo':$.cookie('gCCV:NO'),'pmemNo':162076};
+		$.primeProfile(postData,'');
+	});
+	$.goPhotoViewAlbum2 = function(memNo,photoNo,photoType,photoSlct) {
+		var postData = {'type':'buy','memNo':$.cookie('gCCV:NO'),'pmemNo':162076,'photoType':photoType,'photoSlct':photoSlct};
+		var photoViewData = {'memNo':memNo,'photoNo':photoNo,'photoType':photoType,'photoSlct':photoSlct};
+		$.primeProfile(postData,photoViewData);
+	}
+	$(window).unload(function(){
+		var opener = '';
+		if(opener==='photoviewAlbum'&&document.activeElement===$('body')[0]){$.finishPop('');}
+	});
+});
+</script>
+
+<style>
+.visit_pop_wrap {display:block; position:fixed; z-index:999; top:35%; width:80%; left:10%; height:200px; margin:center;}
+.visit_pop_container {width:100%; height:200px; border:1px solid #b6bcbf; border-radius:5px; background-color:#FFF; box-shadow:-1px -1px 19px 3px rgba(0,0,0,.3); -webkit-box-shadow:-1px -1px 19px 3px rgba(0,0,0,.3); -o-box-shadow:-1px -1px 19px 3px rgba(0,0,0,.3); -moz-box-shadow:-1px -1px 19px 3px rgba(0,0,0,.3);}
+.main_txt {display:block; color:#424242; font-size:15px; text-align:center;}
+.visit_his_check_box {display:block; width:70%; height:47px; margin:0 auto; border:1px solid #b6bcbf; border-radius:5px; background-color:#fff; line-height:47px;}
+.check_box_txt {padding-left:15px; color:#263238; font-size:14px;}
+input[type=checkbox].cp_check02 {position:absolute; z-index:-1000; left:-1000px; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; border:0; clip:rect(0 0 0 0);}
+input[type=checkbox].cp_check02 {display:block; height:28px; background-repeat:no-repeat; background-position:0 0; vertical-align:middle;}
+label {display:inline-block; height:28px; padding-left:35px; background-repeat:no-repeat; background-position:0 0; vertical-align:middle;}
+input[type=checkbox].cp_check02:checked + label {background-position:0 -28px;}
+input[type=checkbox].label {background-position:0 -28px;}
+.css-label_02 {display:inline-block; float:right; height:28px; margin-top:9px; margin-right:5px; background-repeat:no-repeat; background-position:0 0; vertical-align:middle;}
+label.css-label_02 {background-image:url('http://image.yeoboya.com/imgs/new_wedding/mobile/img/join_check.png');}
+.visit_notice_txt {display:inline-block; color:#727272; font-size:12px; letter-spacing:-1px;}
+.visit_pop_btn {display:block; width:78px; height:34px; margin:0 auto; border:1px solid #3a3030; border-radius:5px; background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #593f41), color-stop(1, #372728)); background:-moz-linear-gradient(top, #593f41 5%, #372728 100%); background:-webkit-linear-gradient(top, #593f41 5%, #372728 100%); background:-o-linear-gradient(top, #593f41 5%, #372728 100%); background:-ms-linear-gradient(top, #593f41 5%, #372728 100%); background:linear-gradient(to bottom, #593f41 5%, #372728 100%); background-color:#4b3536; box-shadow:inset 0px 1px 0px 0px #ada0a0; color:#fff; font-size:16px; text-align:center; line-height:32px; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0); -webkit-box-shadow:inset 0px 1px 0px 0px #ada0a0; -webkit-border-radius:5px; -moz-box-shadow:inset 0px 1px 0px 0px #ada0a0; -moz-border-radius:5px;}
+</style>
+
+<!-- 최초 상대방 프로필 방문시에만 방문기록을 남길 것인지 체크하도록~  && $visit_checked1-->
+	
+
+<script>
+// 방문자기록설정을 변경해주세요.
+function visitHistory() {
+
+	var visitInsYn = $('#check1').is(":checked") ? 'y' : 'n';		
+
+	$.ajax({
+		type: 'POST',
+		url: '?ctrl=visithistory/ajax&dest=ajaxVisitHistorySet',
+		dataType: 'JSON',
+		cache: false,
+		data: {
+			'visitInsYn': visitInsYn
+		},
+		success: function(data) {
+			if (data == "1") {
+				$.toast("방문기록을 설정하였습니다.");
+				$("#popClose").hide(); // 설정시 방문팝업 안보이게~
+			} else {
+				$.alert("시스템 오류, 다시 시도해 주세요", "확인");
+			}
+		},
+		error: function() {
+			$.alert("시스템 오류, 다시 시도해 주세요", "확인");
+		}
+	});
+	
+}
+</script><style>
+.company_ad { display:none; bottom:0; width:100%; height:auto; background-color:#636467; font-size:12px; color:#FFF;  padding:3px 0; text-align:center; }
+.posi_relative {position: relative;}
+.posi_fixed {position: fixed; }
+#btnMoveTop:focus {outline:none;}
+</style>
+
+<a href="javascript:void(0);" id="btnMoveTop" onclick="$(this).effect('bounce',{times:3},30,function(){$.goTop();});"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_jump_up.png" width="35" alt=""></a>
+
+<div class="company_ad font_r posi_fixed" id="company_ad">
+(주)인포렉스 대표이사 박진. 사업자등록번호 409-81-49209<br>
+광주광역시 서구 마륵동 165-27. 문의전화 1522-3379<br>
+결혼중개신고번호 광주-서구-국내-15-0003호
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+	$.hashState = 1;
+
+	// open layer use backbutton
+	$.setHash = function(hashStr) {
+		$.hashState = 2;
+		if(history.pushState) {
+			history.pushState('', document.title, '/' + location.search + hashStr);
+		}
+		if(typeof(Storage) !== "undefined") {
+			localStorage.setItem("lastHash", hashStr);
+		}
+	}
+
+	// hash action
+	$.actHash = function(hashData) {
+		$.hashState = 3;
+		switch(hashData) {
+			case '#photo_save_hash' :
+				$("#photo_save_ly").hide();
+				$('.cer_modal').hide();
+				break;
+			case '#slctPrPhoto' :
+				$('#slctPrPhoto').hide();
+				break;
+			case '#slctProfileAttr' :
+				$.closeProfileAttr();
+				break;
+			case '#ifx-alert' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#ifx-confirm' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#msgReport' :
+				$('#profileReport').hide();
+				$('#msgReport').hide();
+				$('#wealthReport').hide();
+				break;
+			case '#ajaxStopID' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#brokerMember' : // ----------------- 중매회원 소개
+				$("#brokerMember").remove();
+				break;
+			case '#miniProfile' : // ----------------- 미니프로필
+				$("#miniProfile").remove();
+				break;
+			case '#bgBlack' : // ----------------- 전체보기버튼 눌렀을 때 암막 2016.11.02 endy
+				$.allMenuHide();
+				break;
+			case '#bgBlackAll' : // ----------------- 2016.11.02 endymion 전체보기버튼 눌렀을 때 암막
+				$.setNewMemAlertHide();
+				break;
+			case '#noticeOpen' :
+				$.noticeClose();
+				break;
+			case '#floating' : // ----------------- 플로팅버튼 2017.04.03 endy
+				$.floatAction();
+				break;
+			case '#ilhaeyoWarning' : // ----------------- 일해요 유의사항 토글 2017.04.03 endy
+				$.noteToggle();
+				break;
+			case '#detailSrchPop' : // ----------------- 상세검색 팝업창 닫기
+				$.directCloseDetailSrchPop();
+				break;
+			case '#alarmLayer' :
+				$(".alarm_layer").slideUp(200);
+				$.hintLayerHide();
+				break;
+			case '#relationLayer' :
+				$.relationInfoLayerClose();
+				break;
+			case '#leaveLayer' :
+				layerHide();
+				break;
+			case '#t_mateSlct' :
+				$("#t_mateSlctLayer").attr("value","1");
+				$("#banner_secret_mini, .floating-btn_area_wrap").hide();
+				break;
+			case '#matchAllList' : // ----------------- 결혼상대를 만나 탈퇴회원 집계 리스트
+				$('#retList').hide();
+				$('.cls_btn').hide();
+				$('html').css('overflow-y','');
+				break;
+			case '#photosLayer' : // ------------------ Thanks여보야 페이지 포토레이어 닫기
+				var contNo = $('#contNo').val();
+				$('#img_' + contNo).css({"display" : "none"});
+				$('#imgModal_' + contNo).css({"display" : "none"});
+				$('#img_' + contNo).children().empty();
+				break;
+			default :
+				// 연락하기
+				if(hashData.indexOf('msg_send_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+
+				if(hashData.indexOf('msg_rcv_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+				break;
+			}
+	};
+
+	// hash chcek
+	$(window).on('hashchange', function(e) {
+		if(typeof(Storage) !== "undefined") {
+			if(window.location.hash == '') {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", '');
+			}
+
+			if(window.location.hash != '' && window.location.hash != localStorage.lastHash) {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", window.location.hash);
+			}
+		}
+	});
+
+	$(window).scroll(function() {
+		if($(window).scrollTop() > 300) {
+			$('#btnMoveTop').css({"z-index":"999","margin-bottom":"0px"}).show();
+		}
+		else {
+			$('#btnMoveTop').hide();
+		}
+	});
+	
+	$(window).on("load", function() {
+		setTimeout(function() {
+		
+		}, 0);
+	});
+});
+</script>
+
+<script>
+(function($) {
+	// user stop check
+	if($.cookie('gCCV:NO')) {
+		if($isApp) {
+			$(document).on('WebViewJavascriptBridgeReady', function() {
+				$.userStopChk('userStop');
+			});
+		}
+		else {
+			$.userStopChk('userStop');
+		}
+	}
+}(jQuery));
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-65223325-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+  // 한 페이지에서 두개의 서로다른 신고하기 창 처리
+  var $arProfileList = [ "기타", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     // [허위프로필신고] 의 신고사유 목록
+  var $arMsgList = [ "기타", "욕설/비방", "광고/상업성", "음란성", "SNS 아이디 요구 ( 카톡 )" ];   // 연락하기/메시지에서의 신고사유 목록
+  var $arWealthList1 = [ "기타", "연봉사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 연봉사진 신고 목록
+  var $arWealthList2 = [ "기타", "학력사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 학력사진 신고 목록
+  var $arWealthList3 = [ "기타", "차량사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 차량사진 신고 목록
+  var $arWealthList4 = [ "기타", "직업사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 직업사진 신고 목록
+  var $arWealthList5 = [ "기타", "증명서사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 증명서사진 신고 목록
+
+  var result = "";
+  var checkVal = "";
+  var pmemNo = '162076';   // 상대방 회원No
+
+  // 신고사유 라디오버튼을 클릭했을 때 선택한 번호([0:기타,1:개인정보허위,2:광고및음란성 사진/글])가 신고하기 버튼의 onclick 속성값을 업데이트 하도록
+  $.radioClick = function(){
+    checkVal = $(":radio[name='radiog_lite']:checked").val();
+  }
+  // 신고사유 선택된게 없으면 선택하도록 경고창 띄우기 : 메시지박스용(채팅창포함)
+  $.sendMsg = function(msgImg, msgText){
+    if($(":radio[name='radiog_lite']:checked").length > 0) {
+      var checkVal = $(":radio[name='radiog_lite']:checked").val();
+      $.msgReportProc(pmemNo, checkVal, msgImg, msgText);
+	  $('#msgReport').hide();
+      //alert("pmemNo : "+pmemNo+"  / checkVal : "+checkVal+"  / msgImg : "+msgImg+"  / msgText : "+msgText);
+    }
+    else {
+      $.alert('신고사유를 선택하여주세요', '확인', null);
+    }
+  }
+  // 신고사유 선택된게 없으면 선택하도록 경고창 띄우기 : 허위프로필신고용(프로필사진포함)
+  $.sendProfile = function(rptSlct, regNo){
+    if($(":radio[name='radiog_lite']:checked").length > 0) {
+      var rptType = $(":radio[name='radiog_lite']:checked").val();
+      $.reportProc(pmemNo, rptSlct, rptType, regNo);
+	  $('#wealthReport').hide();
+	  $('#profileReport').hide();
+    }
+    else {
+      $.alert('신고사유를 선택하여주세요', '확인', null);
+    }
+  }
+
+  $.cancelMsg = function(){
+	$('.report_wrap').hide();
+  };
+
+  // ====== 앞에서 신고하기를 클릭했을 때의 처리 ====== //
+  // 메시지박스(btnReport, 입력한내용, 이미지파일명, 이미지주소)
+  // 프로필사진(btnReport2, 'p', 신고사유(공백), 신고값(이미지번호))
+  // 허위프로필(btnReport2, 'm', 신고사유(공백), 신고값(0))
+  $.btnClick = function (clickId, msgText, msgImg, photoUrl){
+
+    var rptSlct = msgText;    // 허위프로필 또는 프로필사진일때 : msgText 값을 rptSlct 로 받아서 사용(변수명을 명확히)
+    var regNo = photoUrl;   // 허위프로필 또는 프로필사진일때
+		if(!location.hash){
+			$.setHash('#msgReport');
+		}
+    var selKey = "";           // 신고사유 갯수가 서로 다르기 때문에 클릭한 id값에 따른 배열을 저장한다.
+    var clickReport = "";     // 허위플로필신고(btnReport) or 글쓰기의 신고(btnReport2)
+    var radioList = "";        // 신고사유 리스트를 저장할 변수(라디오버튼-목록)
+    var num =1;               // input 요소의 radio 버튼에 id 값을 줄 때 1 번부터 시작하도록(radio_msg01)
+
+    // 클릭한 버튼이 허위프로필신고(btnReport) or  글쓰기의 신고(btnReport2) 일 때 보여줄 창을 clickReport 에 담는다.
+    switch(clickId){
+    		case "btnReport":
+			      selKey = $arProfileList;
+			      clickReport = $('#profileReport').css('display');
+    		break;
+    		case "btnReport2":
+			      selKey = $arMsgList;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		case "btnReport3_1":  //프로필 연봉사진 신고
+			      selKey = $arWealthList1;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		case "btnReport3_2":  //프로필 학력사진 신고
+			      selKey = $arWealthList2;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		case "btnReport3_3":  //프로필 차량사진 신고
+			      selKey = $arWealthList3;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+	        case "btnReport3_4":  //프로필 직업사진 신고
+		        selKey = $arWealthList4;
+		        clickReport = $('#msgReport').css('display');
+		        num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+		    break;
+		    case "btnReport3_5":  //프로필 증명서사진 신고
+			    selKey = $arWealthList5;
+			    clickReport = $('#msgReport').css('display');
+			    num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+		    break;
+    		default:
+    				selKey = "";
+    		break;
+    }
+
+    // 위의 신고사유 배열 갯수만큼 ul 요소안에 li 요소로 사유리스트를 만든다.
+    // 실제 신고사유 리스트가 html 코드로 저장(단 기타의 경우 실제 index 값은 "0"이지만 실제 화면에 보이는 위치는 맨 끝으로 가야함)
+    for(var i=0; i<selKey.length; i++) {
+      if(selKey[i] != '기타') {
+        radioList += "<li class='font_m'>";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_label'>"+selKey[i];
+        radioList += "<input href='javascript:void(0);' onclick='$.radioClick()' name='radiog_lite' type='radio' class='msg_radio_1' id='radio_msg0"+(i+num)+"' value="+i+" />";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_css01'></label></label>";
+        radioList += "</li>";
+      }
+    }
+    for(var i=0; i<selKey.length; i++) {
+      if(selKey[i] == '기타') {
+        radioList += "<li class='font_m'>";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_label'>"+selKey[i];
+        radioList += "<input href='javascript:void(0);' onclick='$.radioClick()' name='radiog_lite' type='radio' class='msg_radio_1' id='radio_msg0"+(i+num)+"' value="+i+" />";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_css01'></label></label>";
+        radioList += "</li>";
+      }
+    }
+    // 신고사유선택창 : 허위프로필용
+    var wrapHeight = 0;
+    var winHeight = parseInt($(window).height());
+
+    if(clickReport == 'none'){
+    		switch(clickId){
+    				case "btnReport":
+					      $('#profileReport').show();
+					      $('#msgReport').hide();
+					      $('#wealthReport').hide();
+					      $('#profileReportUl > span').html(radioList);
+					      wrapHeight = parseInt($('#profileReport').css('height').replace(/[^0-9]/g,''))+50;
+					      result = "$.sendProfile('"+rptSlct+"','"+regNo+"')";
+    				break;
+    				case "btnReport2":
+					      if((msgImg == "||" || msgImg == "|" || msgImg == "null||") && msgText != null){
+					       		radioList += "<li class='font_m last_li'>"+msgText+"<br><br><br></li>";
+					      }else{
+					        	radioList += "<li class='font_m last_li' ><div id='imgReport'></div></li>";
+					      }
+					      $('#msgReport').show();
+					      $('#profileReport').hide();
+					      $('#wealthReport').hide();
+					      $('#msgReportUl > span').html(radioList);
+					      wrapHeight = parseInt($('#msgReport').css('height').replace(/[^0-9]/g,''));
+					      result = "$.sendMsg('"+msgImg+"','"+msgText+"')";
+    				break;
+    				case "btnReport3_1":
+    				case "btnReport3_2":
+    				case "btnReport3_3":
+					      $('#wealthReport').show();
+					      $('#msgReport').hide();
+					      $('#profileReport').hide();
+					      $('#wealthReportUI > span').html(radioList);
+					      wrapHeight = parseInt($('#profileReport').css('height').replace(/[^0-9]/g,''))+90;
+					      result = "$.sendProfile('"+rptSlct+"','"+regNo+"')";
+    				break;
+    				default:
+					      $('#profileReport').hide();
+					      $('#msgReport').hide();
+    				break;
+    		}
+    }else{
+	      $('#profileReport').hide();
+	      $('#msgReport').hide();
+    }
+
+    $('.sendReport').attr('onclick', result);
+//    $('#radio_msg0'+num).attr('checked', true);
+    $('#imgReport').css("background-image","url('"+photoUrl+"')");
+    $('.report_wrap').css("top", ((winHeight-wrapHeight)/2)+"px");
+  }
+</script>
+
+
+</div></body></html>
